@@ -1,17 +1,51 @@
-# Welcome to MkDocs
+# Home
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## [Marketplace](https://www.unrealengine.com/marketplace/en-US/product/blueprint-assist) | [Forum Post](https://forums.unrealengine.com/t/blueprint-assist-plugin/214123)
 
-## Commands
+### The Blueprint Assist plugin adds a large number of QOL features when working with blueprints
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+***
+*This page is a quick overview: for a full list of features please look at
+the [Features](https://github.com/fpwong/BlueprintAssistWiki/wiki/Features) page*
+***
 
-## Project layout
+### Formatting
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+#### Blueprints
+
+![](https://i.imgur.com/RweXyxv.gif)
+
+#### Behavior Tree
+
+![](https://i.imgur.com/KYE8Sl5.gif)
+
+> Formatting for other graphs is supported, but is very simple compared to the blueprint editor. Works well for simple
+graphs such as Sound Cues but not well for complex graphs such as the Material Editor.
+
+***
+
+### Navigating the graph
+
+#### Pin selection and editing
+
+![](https://i.imgur.com/nWEYjGq.gif)
+
+#### Go-to-symbol menu
+
+![](https://i.imgur.com/O201yCf.png)
+
+***
+
+### Miscellaneous helpful commands
+
+#### Link nodes between wires
+
+![](https://i.imgur.com/wqGY1sS.gif)
+
+#### Duplicate node for each link
+
+![](https://i.imgur.com/Ttm6kVR.gif)
+
+#### Delete and keep links
+
+![](https://i.imgur.com/Am3DkTn.gif)
