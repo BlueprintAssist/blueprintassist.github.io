@@ -11,7 +11,16 @@ The Blueprint Assist plugin adds a large number of quality of life features when
 ***
 ### Formatting
 #### Blueprints
-![](https://i.imgur.com/RweXyxv.gif)
+
+Review This
+
+https://squidfunk.github.io/mkdocs-material/reference/grids/
+
+https://squidfunk.github.io/mkdocs-material/reference/admonitions/
+
+!!! info "This is Blueprints"
+    ![](img/blueprint1.gif)
+
 #### Behavior Tree
 ![](https://i.imgur.com/KYE8Sl5.gif)
 
