@@ -1,3 +1,5 @@
+# FAQ
+
 | Table of Contents |
 | - |
 | [Formatting looks off](#formatting-looks-off)

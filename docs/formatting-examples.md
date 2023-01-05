@@ -1,3 +1,5 @@
+# Formatting Examples
+
 **Auto position nodes as you create them**
 
 ![](https://i.imgur.com/Lbte1lF.gif)
