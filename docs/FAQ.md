@@ -8,7 +8,7 @@
 | [Stop plugin from compiling when packaging](#stop-any-editor-plugin-from-building--compiling-when-packaging)
 | [Support for custom graphs](#support-for-custom-graphs)
 
-# Formatting looks off
+## Formatting looks off
 Formatting has odd spacing / wires are misaligned. This is quite a common issue. The node size is calculated and saved when you open the graph or upon creating a new node. We don't know when the size of a node changes later! 
 
 You can fix this by selecting the nodes and running the `RefreshNodeSize` command (`CTRL+SHIFT+R`).
@@ -19,7 +19,7 @@ Most commonly this occurs even upon creating an event node. The event node spawn
 
 ![](https://i.imgur.com/XrBj5gh.gif)
 
-# Building for a non supported UE version
+## Building for a non supported UE version
 
 1. Download the plugin through the marketplace for a UE version you have currently have
 2. Open the command prompt 
@@ -37,7 +37,7 @@ Example: Building for desired version `UE_5.0` and our current version is `UE_4.
     * Project plugin location `%PROJECT_DIR%/Plugins`
     * Engine plugin marketplace folder `C:/Epic Games/UE_5.0/Engine/Plugins/Marketplace`
 
-# Sharing plugin settings through source control
+## Sharing plugin settings through source control
 
 Navigate to the plugin settings and click the `Set as Default` button. Follow the prompts that appear.
 
@@ -60,7 +60,7 @@ PinTextHighlightColor=(R=0.728000,G=0.364000,B=0.003000,A=1.000000)
 ...
 ```
 
-# Stop plugin from building / compiling when packaging
+## Stop plugin from building / compiling when packaging
 
 * Open your project's `.uproject` file and go to the plugins section. We need to set the `WhitelistTargets` to only the Editor.
 
