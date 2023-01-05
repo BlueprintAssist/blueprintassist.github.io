@@ -1,0 +1,33 @@
+/*:root {*/
+
+/*    !* Primary color shades *!*/
+/*    --md-primary-fg-color: #58861f;*/
+/*    --md-primary-fg-color--light: #861f4194;*/
+/*    --md-primary-fg-color--dark: #ac325a;*/
+/*    --md-primary-bg-color: hsla(0, 0%, 100%, 1);*/
+/*    --md-primary-bg-color--light: hsla(0, 0%, 100%, 0.7);*/
+/*    --md-text-link-color: hsla(231, 48%, 48%, 1);*/
+
+/*    !* Accent color shades *!*/
+/*    --md-accent-fg-color: rgb(98, 18, 189);*/
+/*    --md-accent-fg-color--transparent: hsla(189, 100%, 37%, 0.1);*/
+/*    --md-accent-bg-color: hsla(0, 0%, 100%, 1);*/
+/*    --md-accent-bg-color--light: hsla(0, 0%, 100%, 0.7);*/
+/*}*/
+
+/*.header {*/
+/*    font-weight: bold;*/
+/*}*/
+
+:root > * {
+    /* Code block color shades */
+    --md-code-bg-color: rgb(10, 10, 10);
+    --md-code-fg-color: rgb(98, 255, 0);
+
+    /*!* Footer *!*/
+    /*--md-footer-bg-color: #861f41;*/
+    /*--md-footer-bg-color--dark: hsla(0, 0%, 0%, 0.32);*/
+    /*--md-footer-fg-color: hsla(0, 0%, 100%, 1);*/
+    /*--md-footer-fg-color--light: hsla(0, 0%, 100%, 0.7);*/
+    /*--md-footer-fg-color--lighter: hsla(0, 0%, 100%, 0.3);*/
+}

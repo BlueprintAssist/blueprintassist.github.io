@@ -1,3 +1,22 @@
 site_name: Blueprint Assist Wiki
 theme:
   name: material
+  palette:
+      scheme: slate
+      primary: indigo
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+  font:
+    text: Open Sans
+    code: JetBrains Mono
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+extra_css:
+  - stylesheets/extra.css

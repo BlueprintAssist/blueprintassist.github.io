@@ -1,60 +1,46 @@
-# Features
+# Command List
 
-**Commands**
+## Hotkeys
 
 | Feature | Hotkey |
 | - | - |
-| [Blueprint Assist hotkey menu](#blueprint-assist-hotkey-menu) | CTRL + SHIFT + F1
-| [Open window menu](#open-window-menu) | CTRL + SHIFT + K
-| [Select pin](#select-pin) | ArrowKeys
-| [Select node](#select-node) | CTRL + ArrowKeys
-| [Shift camera](#shift-camera) | SHIFT + ArrowKeys
-| [Open blueprint creation menu](#open-blueprint-creation-menu) | Tab
-| [Format node](#format-node) | F
-| [Format node selectively](#format-node-selectively) | Shift + F
-| [Format all events](#format-all-events) | CTRL + R
-| [Delete and link](#delete-and-link) | SHIFT + Delete
-| [Connect unlinked pins](#connect-unlinked-pins) | Q
-| [Link nodes between wires](#link-nodes-between-wires) | CTRL + Q
-| [Link to hovered pin](#link-to-hovered-pin) | CTRL + SHIFT + Q
-| [Disconnect selected pin](#disconnect-selected-wire-or-pin) | D
-| [Disconnect node execution](#disconnect-node-execution) | CTRL + D
-| [Disconnect all pins](#disconnect-all-pins) | CTRL + SHIFT + D
-| [Toggle context sensitive](#toggle-context-sensitive) | CTRL + T
-| [Swap node left/right](#swap-node-left/right) | CTRL + SHIFT + Left/Right
-| [Edit selected pin value](#edit-selected-pin-value) | CTRL + E
-| [Switch workflow mode](#switch-workflow-mode) | ALT + O
-| [Edit details menu](#edit-details-menu) | CTRL + SHIFT + E
-| [Zoom to node tree](#zoom-to-node-tree) | CTRL + =
-| [Add Symbol menu](#add-symbol-menu) | CTRL + SHIFT + A
-| [Focus search box menu](#focus-search-box-menu) | CTRL + ALT + F
-| [Go to symbol menu](#go-to-symbol-menu) | CTRL + G
-| [Select variable menu](#select-variable-menu) | CTRL + SHIFT + G
-| [Open context menu for pin](#open-context-menu-for-pin) | CTRL+  M
-| [Open context menu for node](#open-context-menu-for-node) | CTRL + SHIFT + M
-| [Duplicate variable node](#duplicate-variable-node) | CTRL + SHIFT + V
-| [Replace node](#replace-node) | CTRL + H
-| [Toggle nodes](#toggle-nodes) | CTRL + /
-| [Split pin](#split--recombine-pin) | ALT + Q
-| [Recombine pin](#split--recombine-pin) | ALT + CTRL + Q
-| [Rename selected node](#rename-selected-node) | F2
-| Toggle fullscreen | ALT + Enter
-
-**Miscellaneous features**
-
-| Feature |
-| - |
-| [Generate getter and setter](#generate-getter-and-setter)
-| [Set variable defaults](#set-variable-defaults)
-| [Auto add parent node](#auto-add-parent-node)
-| [Auto enable Instance Editable](#auto-enable-instance-editable)
-| [Invisible knot nodes](#invisible-knot-nodes)
-| [Play live compile sound](#play-live-compile-sound)
-| [Shift drag nodes](#shift-drag-nodes)
-| [Folder bookmarks](#folder-bookmarks)
+| [Blueprint Assist hotkey menu](#blueprint-assist-hotkey-menu) | `CTRL + SHIFT + F1`
+| [Open window menu](#open-window-menu) | `CTRL + SHIFT + K`
+| [Select pin](#select-pin) | `ArrowKeys`
+| [Select node](#select-node) | `CTRL + ArrowKeys`
+| [Shift camera](#shift-camera) | `SHIFT + ArrowKeys`
+| [Open blueprint creation menu](#open-blueprint-creation-menu) | `Tab`
+| [Format node](#format-node) | `F`
+| [Format node selectively](#format-node-selectively) | `Shift + F`
+| [Format all events](#format-all-events) | `CTRL + R`
+| [Delete and link](#delete-and-link) | `SHIFT + Delete`
+| [Connect unlinked pins](#connect-unlinked-pins) | `Q`
+| [Link nodes between wires](#link-nodes-between-wires) | `CTRL + Q`
+| [Link to hovered pin](#link-to-hovered-pin) | `CTRL + SHIFT + Q`
+| [Disconnect selected pin](#disconnect-selected-wire-or-pin) | `D`
+| [Disconnect node execution](#disconnect-node-execution) | `ALT + D`
+| [Disconnect all pins](#disconnect-all-pins) | `CTRL + SHIFT + D`
+| [Toggle context sensitive](#toggle-context-sensitive) | `CTRL + T`
+| [Swap node left/right](#swap-node-left/right) | `CTRL + SHIFT + Left/Right`
+| [Edit selected pin value](#edit-selected-pin-value) | `CTRL + E`
+| [Switch workflow mode](#switch-workflow-mode) | `ALT + O`
+| [Edit details menu](#edit-details-menu) | `CTRL + SHIFT + E`
+| [Zoom to node tree](#zoom-to-node-tree) | `CTRL + =`
+| [Add Symbol menu](#add-symbol-menu) | `CTRL + SHIFT + A`
+| [Focus search box menu](#focus-search-box-menu) | `CTRL + ALT + F`
+| [Go to symbol menu](#go-to-symbol-menu) | `CTRL + G`
+| [Select variable menu](#select-variable-menu) | `CTRL + SHIFT + G`
+| [Open context menu for pin](#open-context-menu-for-pin) | `CTRL+  M`
+| [Open context menu for node](#open-context-menu-for-node) | `CTRL + SHIFT + M`
+| [Duplicate variable node](#duplicate-variable-node) | `CTRL + SHIFT + V`
+| [Replace node](#replace-node) | `CTRL + H`
+| [Toggle nodes](#toggle-nodes) | `CTRL + /`
+| [Split pin](#split--recombine-pin) | `ALT + Q`
+| [Recombine pin](#split--recombine-pin) | `ALT + CTRL + Q`
+| [Rename selected node](#rename-selected-node) | `F2`
+| Toggle fullscreen | `ALT + Enter`
 
 ---
-## Features
 
 ### Blueprint Assist hotkey menu
 
@@ -146,7 +132,7 @@
 ![](https://i.imgur.com/fYB6eeX.gif)
 ***
 ### Disconnect node execution
-* Select a node and press `CTRL + D` to disconnect node execution
+* Select a node and press `ALT + D` to disconnect node execution
 
 ![](https://i.imgur.com/nm2P8Q9.gif)
 ***
@@ -254,49 +240,3 @@
 * Rename selected *variable* or *macro* by pressing `F2`
 
 ![](https://i.imgur.com/x5vIOBz.gif)
-
-## Miscellaneous features
-
-### Generate getter and setter
-* New context menu actions for variables to generate getter and setter
-* Setting `Merge Generate Getter and Setter Button` to merge into a single action
-* Renaming a variable will auto-rename the getter and setter
-
-![](https://i.imgur.com/YguOhRc.gif)
-
-### Set variable defaults
-* Set default properties to be applied to newly created variables
-
-![](https://i.imgur.com/CQ4X0b8.png)
-
-> Here we would like to set all new variables to default to private
-
-### Auto add parent node
-* Disable this behavior by disabling `Auto Add Parent Node`
-
-![](https://i.imgur.com/rJH2ied.gif)
-
-### Auto enable Instance Editable
-* Enable the variable property `Instance Editable` when you tick Expose on Spawn
-
-![](https://i.imgur.com/CKBKB4U.gif)
-
-### Invisible knot nodes
-* Disabled by default, enable with setting `Enable Invisible Knot Nodes`
-
-![](https://i.imgur.com/TOJMErQ.png)
-
-### Play live compile sound
-* Play sound upon successful live compile
-* Disabled by default, enable with setting `Play Live Compile Sound`
-
-### Shift drag nodes
-* Disabled by default, enable with setting `Enable Shift Dragging Nodes`
-
-![](https://i.imgur.com/lmKPBjz.gif)
-
-### Folder bookmarks
-Keybindings to activate a folder in the content browser. While the content browser is open:
-* Press `CTRL + SHIFT + {0-9}` to set the bookmark
-* Press `CTRL + {0-9}` to activate the bookmark
-* See setting `Folder bookmarks` to change keybindings for bookmarks
