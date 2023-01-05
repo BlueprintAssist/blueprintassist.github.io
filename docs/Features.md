@@ -1,4 +1,4 @@
-## Table of Contents
+**Commands**
 
 | Feature | Hotkey |
 | - | - |
@@ -21,6 +21,7 @@
 | [Toggle context sensitive](#toggle-context-sensitive) | CTRL + T
 | [Swap node left/right](#swap-node-left/right) | CTRL + SHIFT + Left/Right
 | [Edit selected pin value](#edit-selected-pin-value) | CTRL + E
+| [Switch workflow mode](#switch-workflow-mode) | ALT + O
 | [Edit details menu](#edit-details-menu) | CTRL + SHIFT + E
 | [Zoom to node tree](#zoom-to-node-tree) | CTRL + =
 | [Add Symbol menu](#add-symbol-menu) | CTRL + SHIFT + A
@@ -30,7 +31,6 @@
 | [Open context menu for pin](#open-context-menu-for-pin) | CTRL+  M
 | [Open context menu for node](#open-context-menu-for-node) | CTRL + SHIFT + M
 | [Duplicate variable node](#duplicate-variable-node) | CTRL + SHIFT + V
-| [Refresh node sizes](#refresh-node-sizes) | CTRL + SHIFT + R
 | [Replace node](#replace-node) | CTRL + H
 | [Toggle nodes](#toggle-nodes) | CTRL + /
 | [Split pin](#split--recombine-pin) | ALT + Q
@@ -38,7 +38,7 @@
 | [Rename selected node](#rename-selected-node) | F2
 | Toggle fullscreen | ALT + Enter
 
-## Miscellaneous
+**Miscellaneous features**
 
 | Feature |
 | - |
@@ -49,8 +49,10 @@
 | [Invisible knot nodes](#invisible-knot-nodes)
 | [Play live compile sound](#play-live-compile-sound)
 | [Shift drag nodes](#shift-drag-nodes)
+| [Folder bookmarks](#folder-bookmarks)
 
 ---
+## Features
 
 ### Blueprint Assist hotkey menu
 
@@ -167,6 +169,12 @@
 
 ![](https://i.imgur.com/o9nwFSc.gif)
 ***
+
+### Switch workflow mode
+* Press `ALT + O` to switch workflow mode. This is mainly for AnimBP, WidgetBP and BehaviorTrees
+* In the AnimBP, it will open a menu since there are more than 2 modes to be selected from
+
+***
 ### Edit details menu
 * Pressing `CTRL + SHIFT + E` will bring up a menu with a list of variables in the Details panel
 * Selecting an item in the menu will bring keyboard focus to that variable (boolean variables will be toggled)
@@ -216,15 +224,7 @@
 
 ![](https://i.imgur.com/Ttm6kVR.gif)
 ***
-### Refresh node sizes
-* Pressing `CTRL + SHIFT + R` will refresh the node sizes used internally by the plugin
-* This is required as nodes will often change their size when renaming, adding / removing pins or when expanded
 
-![](https://i.imgur.com/O5mKFXU.gif)
-
->  Here, the `Print String` node has been expanded and its height changes. We need to refresh the node size to get the formatting correct.
-***
-x
 ### Replace node
 * Replace the selected node with a new node by pressing `CTRL + H`
 
@@ -292,3 +292,9 @@ x
 * Disabled by default, enable with setting `Enable Shift Dragging Nodes`
 
 ![](https://i.imgur.com/lmKPBjz.gif)
+
+### Folder bookmarks
+Keybindings to activate a folder in the content browser. While the content browser is open:
+* Press `CTRL + SHIFT + {0-9}` to set the bookmark
+* Press `CTRL + {0-9}` to activate the bookmark
+* See setting `Folder bookmarks` to change keybindings for bookmarks
