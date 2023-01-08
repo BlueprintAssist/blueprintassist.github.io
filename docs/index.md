@@ -9,18 +9,19 @@ The Blueprint Assist plugin adds a large number of _quality of life features_ an
 
 ---
 
-## Node Formatting
+## Major features
 
-=== "Blueprints"
+=== "Node Formatting"
 
     ![](https://i.imgur.com/RweXyxv.gif)
+
+    !!! note
+        Formatting for other graphs is supported, but is very simple compared to the blueprint editor. Works well for simple
+        graphs such as Sound Cues but not well for complex graphs such as the Material Editor.
 
 === "Behavior Tree"
 
     ![](https://i.imgur.com/KYE8Sl5.gif)
-
-!!! note
-    Formatting for other graphs is supported, but is very simple compared to the blueprint editor. Works well for simple graphs such as Sound Cues but not well for complex graphs such as the Material Editor.
 
 ***
 ## Navigating the graph
@@ -29,13 +30,14 @@ The Blueprint Assist plugin adds a large number of _quality of life features_ an
 ![](https://i.imgur.com/O201yCf.png)
 
 ***
-## Miscellaneous helpful commands
+## Editor Improvements
 
-### Link nodes between wires
-![](https://i.imgur.com/wqGY1sS.gif)
+=== "Link nodes between wires"
 
-### Duplicate node for each link
-![](https://i.imgur.com/Ttm6kVR.gif)
+    ![](https://i.imgur.com/wqGY1sS.gif)
 
-#### Delete and keep links
-![](https://i.imgur.com/Am3DkTn.gif)
+=== "Duplicate node for each link"
+    ![](https://i.imgur.com/Ttm6kVR.gif)
+
+=== "Delete and keep links"
+    ![](https://i.imgur.com/Am3DkTn.gif)

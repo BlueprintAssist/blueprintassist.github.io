@@ -1,12 +1,12 @@
 # Formatting Examples
 
-**Auto position nodes as you create them**
+### Auto position nodes as you create them
 
 ![](https://i.imgur.com/Lbte1lF.gif)
 
 ***
 
-**Produces readable results on complex blueprints**
+### Produces readable results on complex blueprints
 
 ![](https://i.imgur.com/w7yf7sR.gif)
 

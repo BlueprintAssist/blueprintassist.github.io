@@ -1,7 +1,5 @@
 # Command List
 
-## Hotkeys
-
 | Feature | Hotkey |
 | - | - |
 | [Blueprint Assist hotkey menu](#blueprint-assist-hotkey-menu) | `CTRL + SHIFT + F1`
@@ -42,20 +40,20 @@
 
 ---
 
-### Blueprint Assist hotkey menu
+## Blueprint Assist hotkey menu
 
 * Open a menu which displays the hotkeys for the plugin
 
 ![](https://i.imgur.com/EZSIgdv.png)
 ***
 
-### Open window menu
+## Open window menu
 * Search and open a menu or setting with `CTRL + SHIFT + K`
 
 ![](https://i.imgur.com/WJld0RN.gif)
 ***
 
-### Select pin
+## Select pin
 * Use the `ArrowKeys` to move the selected pin
 
 * Selecting a node will select the top-right execution pin
@@ -64,17 +62,17 @@
 
 ![](https://i.imgur.com/Grx5k6h.gif)
 ***
-### Select node
+## Select node
 * Select a node using `CTRL + ArrowKeys`
 
 ![](https://i.imgur.com/a27GWt5.gif)
 ***
-### Open blueprint creation menu
+## Open blueprint creation menu
 * Press `Tab` to open the blueprint creation menu. With a pin selected it will create the menu for the pin
 
 ![](https://i.imgur.com/qRXXN1X.gif)
 ***
-### Format node
+## Format node
 * With a node selected press `F` to format the block of nodes
 * If the block of nodes has an event node, it will use it as the root node
 * Two styles for parameters: 
@@ -89,14 +87,14 @@
 
 ![](https://i.imgur.com/RweXyxv.gif)
 ***
-### Format node selectively
+## Format node selectively
 * With multiple nodes selected press `Shift + F` to format *only* the selected nodes
 * If you have a single node selected, this command will selectively format the node tree to the right
 
 ![](https://i.imgur.com/xnyZeLo.gif)
 
 ***
-### Format all events
+## Format all events
 * Press `CTRL + R` to format all event nodes on the graph. 
 
 * Using the option: `Use columns for format all`, events are laid out in columns based on the type of event node
@@ -106,137 +104,137 @@
 ![](https://i.imgur.com/BExmivg.gif)
 
 ***
-### Delete and link
+## Delete and link
 * With a node selected press `SHIFT + DEL` to delete the node while preserving the links
 
 ![](https://i.imgur.com/Am3DkTn.gif)
 ***
-### Connect unlinked pins
+## Connect unlinked pins
 * With a node selected, press `Q` to connect unlinked pins to nearby nodes
 
 ![](https://i.imgur.com/4I8rSp5.gif)
 ***
-### Link nodes between wires
+## Link nodes between wires
 * With a node selected, hover a wire or pin and press `CTRL + Q` to link the node
 
 ![](https://i.imgur.com/wqGY1sS.gif)
 ***
-### Link to hovered pin
+## Link to hovered pin
 * Select a pin, then hover another pin and press `CTRL + SHIFT + Q` to link the two pins
 
 ![](https://i.imgur.com/fvDGTUQ.gif)
 ***
-### Disconnect selected wire or pin
+## Disconnect selected wire or pin
 * Hover a wire or pin and press `D` to disconnect
 
 ![](https://i.imgur.com/fYB6eeX.gif)
 ***
-### Disconnect node execution
+## Disconnect node execution
 * Select a node and press `ALT + D` to disconnect node execution
 
 ![](https://i.imgur.com/nm2P8Q9.gif)
 ***
-### Disconnect all pins
+## Disconnect all pins
 * Select a node and press `CTRL + SHIFT + D` to disconnect all pins
 
 ![](https://i.imgur.com/7RZ7Pj4.gif)
 ***
-### Toggle context sensitive
+## Toggle context sensitive
 * With the blueprint creation menu open, press `CTRL + T` to toggle context sensitive
 
 ![](https://i.imgur.com/DvEXUfx.png)
 ***
-### Swap node left/right
+## Swap node left/right
 * With a node selected, press `CTRL + SHIFT + (Left / Right)` to swap the node execution left or right
 
 ![](https://i.imgur.com/lh0MhUQ.gif)
 ***
-### Edit selected pin value
+## Edit selected pin value
 * Press `CTRL + E` to start editing the value of the selected pin
 * Pressing the hotkey again will move to the next editable value on the pin (for example when editing the Delta Location Vector)
 
 ![](https://i.imgur.com/o9nwFSc.gif)
 ***
 
-### Switch workflow mode
+## Switch workflow mode
 * Press `ALT + O` to switch workflow mode. This is mainly for AnimBP, WidgetBP and BehaviorTrees
 * In the AnimBP, it will open a menu since there are more than 2 modes to be selected from
 
 ***
-### Edit details menu
+## Edit details menu
 * Pressing `CTRL + SHIFT + E` will bring up a menu with a list of variables in the Details panel
 * Selecting an item in the menu will bring keyboard focus to that variable (boolean variables will be toggled)
 
 ![](https://i.imgur.com/369upI5.gif)
 ***
-### Zoom to node tree
+## Zoom to node tree
 * Pressing `CTRL + Equals` will zoom to fit the node tree (all nodes connected to the current node)
 
 ![](https://i.imgur.com/VnpLdja.gif)
 ***
-### Add Symbol menu
+## Add Symbol menu
 * Pressing `CTRL + SHIFT + A` will open a menu allowing you to add a new *graph*, *function* *macro*, *variable* or *event dispatcher*
 
 ![](https://i.imgur.com/FL6I9ry.png)
 
 ***
-### Go to symbol menu
+## Go to symbol menu
 * Pressing `CTRL + G` will open a menu allowing you to bring viewport focus to any *function* / *macro* / *graph* / *event*
 
 ![](https://i.imgur.com/O201yCf.png)
 
 ***
-### Focus search box menu
+## Focus search box menu
 * Pressing `CTRL + ALT + F` will open a menu allowing you to bring keyboard focus to a search box in the current window
 
 ![](https://i.imgur.com/zwHVLY4.png)
 ***
-### Select variable menu
+## Select variable menu
 * Pressing `CTRL + SHIFT + G` will open a menu allowing you to focus a variable in the blueprint
 
 ![](https://i.imgur.com/17WMoOU.png)
 ***
-### Open context menu for pin
+## Open context menu for pin
 * Pressing `CTRL + M` will bring up the pin actions for the selected pin
 
 ![](https://i.imgur.com/WIenOKK.gif)
 ***
-### Open context menu for node
+## Open context menu for node
 * Pressing `CTRL + SHIFT + M` will bring up the node actions for the selected node
 
 ![](https://i.imgur.com/UFeoR1M.gif)
 ***
 
-### Duplicate variable node
+## Duplicate variable node
 * Pressing `CTRL + SHIFT + V` will duplicate a variable node for each of it's links
 
 ![](https://i.imgur.com/Ttm6kVR.gif)
 ***
 
-### Replace node
+## Replace node
 * Replace the selected node with a new node by pressing `CTRL + H`
 
 ![](https://i.imgur.com/i14zp6I.gif)
 ***
 
-### Shift camera
+## Shift camera
 * Move the camera using `SHIFT + Arrow Keys`
 ***
 
-### Toggle nodes
+## Toggle nodes
 * Disabled or enable selected nodes using `CTRL + \`
 
 ![](https://i.imgur.com/dBgFyyJ.gif)
 ***
 
-### Split / recombine pin
+## Split / recombine pin
 * Split hovered or selected pin using `ALT + Q`
 * Recombine using `ALT + CTRL + Q`  
 
 ![](https://i.imgur.com/r0W5Hqb.gif)
 ***
 
-### Rename selected node
+## Rename selected node
 * Rename selected *variable* or *macro* by pressing `F2`
 
 ![](https://i.imgur.com/x5vIOBz.gif)
