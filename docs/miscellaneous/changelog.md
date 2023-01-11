@@ -1,4 +1,11 @@
 # Changelog
+
+### 4.0.12
+* Open workflow menu when pressing `SwitchWorkflowMode (ALT+O)` in AnimBP
+* Fix issue with comment bubble bounds not being calculated correctly
+* Fix issue with detecting node size changes when comment bubble is altered
+* Fix issue with `AlwaysFormatAll` setting where camera would lerp after formatting
+
 ### 4.0.11
 * Add setting `Cache Save Location`. Choose to save the cache file in the `Project/Saved` or `Plugin` folder.
 * Fix missing `WidgetBlueprintEditor` in `SupportedAssetEditors` setting
