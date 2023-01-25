@@ -4,7 +4,7 @@
 * Add feature `Lock Node (ALT+L)`
     * Locked nodes will not move formatting. [See more](../features/command-list.md#toggle-lock-nodes)
 * Add feature `Group Node (ALT+G | CTRL+ALT+G)`
-    * Grouped nodes will together on the graph. [See more](../features/command-list.md#group-nodes)
+    * Grouped nodes will move together on the graph. [See more](../features/command-list.md#group-nodes)
 * Add setting `ApplyVariableDefaultsToEventDispatchers` (default: false)
 * Add setting `DisableBlueprintAssistPlugin` (default: false)
 * Fix issue with missing PlainBorder image

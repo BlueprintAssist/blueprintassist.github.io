@@ -242,7 +242,7 @@
 ![](https://i.imgur.com/x5vIOBz.gif)
 
 ## Group nodes
-* Group nodes so they move with each other `ALT + G`
+* Group nodes so they are locked and move together `ALT + G`
 * Ungroup nodes with `ALT + CTRL + G`
 * Holding down any key while dragging the nodes will stop the group movement
 
