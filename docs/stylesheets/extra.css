@@ -35,6 +35,7 @@
 .md-typeset,
 .md-nav__link,
 .md-nav__item .md-nav__link--active,
+.md-nav__link--passed,
 .md-typeset .admonition
 {
     color: #c5c5c5;

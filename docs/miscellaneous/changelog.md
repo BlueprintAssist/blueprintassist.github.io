@@ -1,5 +1,14 @@
 # Changelog
 
+### 4.1.0
+* Add feature `Lock Node (ALT+L)`
+    * Locked nodes will not move formatting. [See more](../features/command-list.md#toggle-lock-nodes)
+* Add feature `Group Node (ALT+G | CTRL+ALT+G)`
+    * Grouped nodes will together on the graph. [See more](../features/command-list.md#group-nodes)
+* Add setting `ApplyVariableDefaultsToEventDispatchers` (default: false)
+* Add setting `DisableBlueprintAssistPlugin` (default: false)
+* Fix issue with missing PlainBorder image
+
 ### 4.0.12
 * Open workflow menu when pressing `SwitchWorkflowMode (ALT+O)` in AnimBP
 * Fix issue with comment bubble bounds not being calculated correctly

@@ -37,6 +37,8 @@
 | [Recombine pin](#split--recombine-pin) | `ALT + CTRL + Q`
 | [Rename selected node](#rename-selected-node) | `F2`
 | Toggle fullscreen | `ALT + Enter`
+| [Group nodes](#group-nodes) | `ALT + G | ALT + CTRL + G`
+| [Toggle lock nodes](#toggle-lock-nodes) | `ALT + L`
 
 ---
 
@@ -238,3 +240,23 @@
 * Rename selected *variable* or *macro* by pressing `F2`
 
 ![](https://i.imgur.com/x5vIOBz.gif)
+
+## Group nodes
+* Group nodes so they move with each other `ALT + G`
+* Ungroup nodes with `ALT + CTRL + G`
+* Holding down any key while dragging the nodes will stop the group movement
+
+!!! note "Settings"
+    * `OnlyDrawGroupOutlineWhenSelected` to only draw the outline when a node is selected
+    * `DrawNodeGroupFill` to also highlight the nodes inside the group
+
+![](./assets/GroupNodes.gif)
+
+## Toggle lock nodes
+* Lock nodes so they are ignored by the Blueprint Assist formatter `ALT + L`
+
+!!! warning "Experimental"
+    * Currently the formatter doesn't work very well with this. Any downstream nodes will also be ignored.
+    * When using this I suggest you use `Selective Formatting (Shift+F)`
+
+![](./assets/ToggleLockNodes.gif)
