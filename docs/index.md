@@ -2,7 +2,7 @@
 
 Welcome to the Blueprint Assist documentation 
 
-* Explore the plugin's features: [Plugin commands](./features/command-list.md) | [Editor improvements](./features/editor-improvements.md)
+* Explore the plugin's features: [Plugin commands](./features/command-list.md) | [New editor features](./features/editor-features.md)
 * Have an issue or question? Check out the [FAQ](./miscellaneous/faq.md) and report your issue on [github](https://github.com/fpwong/BlueprintAssistWiki/issues)
 
 !!! info "Using the docs"

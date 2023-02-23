@@ -1,4 +1,4 @@
-# Editor improvements
+# Editor features
 
 ## Generate getter and setter
 * New context menu actions for variables to generate getter and setter
@@ -33,8 +33,9 @@
 * Play sound upon successful live compile
 * Disabled by default, enable with setting `Play Live Compile Sound`
 
-## Shift drag nodes
-* Disabled by default, enable with setting `Enable Shift Dragging Nodes`
+## Group movement
+* While dragging nodes on a graph, hold any `Group Movement Chord` and it will move all linked nodes
+* Default key is `SHIFT`, search for `Group Movement Chords` in `Editor Preferences`
 
 ![](https://i.imgur.com/lmKPBjz.gif)
 
