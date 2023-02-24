@@ -45,3 +45,18 @@ Keybindings to activate a folder in the content browser. While the content brows
 * Press `CTRL + SHIFT + {0-9}` to set the bookmark
 * Press `CTRL + {0-9}` to activate the bookmark
 * See setting `Folder bookmarks` to change keybindings for bookmarks
+
+## Auto Custom Event Replication Flags and Title
+
+When renaming a CustomEvent title it will update the custom event's Replication based on the node title prefix
+
+![](assets/RepFlagsFromName.gif)
+
+When changing a CustomEvent Replication it will prefix the custom event's title 
+
+![](assets/NameFromRepFlags.gif)
+
+!!! note "Notable Settings"
+    * `Clear replication Flags when Renaming with No Prefix` (disabled by default)
+        * If you don't add a prefix to the title, the rep flag will be set to `Not Replicated`
+    * Settings to change the Prefix for Multicast, Server and Client (default to `Server_` etc)
