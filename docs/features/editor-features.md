@@ -46,6 +46,17 @@ Keybindings to activate a folder in the content browser. While the content brows
 * Press `CTRL + {0-9}` to activate the bookmark
 * See setting `Folder bookmarks` to change keybindings for bookmarks
 
+## Node Groups
+
+Group nodes so they are locked together and moving one node will move the entire group
+
+* Press `ALT + G` to group selected nodes
+* Press `ALT + CTRL + G` to ungroup selected nodes nodes
+* Holding down `ANY KEY` will allow you to bypass the lock and move nodes individually
+* See settings in `Editor Features | Node Group` for different methods of visually displaying the node groups (such as highlighting) 
+
+![](assets/NodeGroups.gif)
+
 ## Auto Custom Event Replication Flags and Title
 
 When renaming a CustomEvent title it will update the custom event's Replication based on the node title prefix
