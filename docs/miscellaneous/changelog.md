@@ -1,5 +1,38 @@
 # Changelog
 
+### 4.1.4
+* Fix issue where clicking on nodes would mark the package dirty
+* Fix issue where group movement would make a transaction when clicking on node buttons
+* Fix issue where comments would block group movement
+
+### 4.1.3
+* Set `Apply Comment Padding` to true by default
+* Added Tool section in the toolbar
+    * Added `Detect Unused Nodes` in tools to show unused nodes on the graph in the message log
+* Add Editor Utility Widgets to the OpenWindowMenu
+* Fix issue where developer settings were not being found if the settings had not been opened yet
+
+### 4.1.2
+* Add feature
+  to [automatically set replication flags when renaming custom event node](https://blueprintassist.github.io/features/editor-features/#auto-custom-event-replication-flags-and-title)
+  and vice versa
+* Change keyboard shortcut for `Disconnect All Node Links` to `ALT+SHIFT+D`
+* Separate settings into `Blueprint Assist | Blueprint Assist Advanced | Blueprint Assist Editor Features` (the two new
+  settings are mostly empty for now but I will be migrating all the settings over in the future)
+    * Move `Node Group` settings into `Editor Features`
+* Fix undo for Simple Formatter (nearly all non-bp graphs)
+* Fix issue where swapping nodes with auto formatting enabled and no root event node would cause the nodes to move
+  unexpectedly
+* Fix crash when splitting a struct pin on a non-blueprint graph
+* Fix experimental setting `Enable Faster Formatting` not working #107
+* Make `Disconnect Execution Of Nodes` and `Delete and Keep Links` apply to pure nodes #110
+* Added experimental Fix for Material Expressions not having unique GUIDs (disabled by default
+  see `GenerateUniqueGUIDForMaterialExpressions` in `Advanced` settings)
+* Fix compile issues when using `NoPCHs`
+
+### 4.1.1
+* Fix bug where pin could lose its connection when formatting
+
 ### 4.1.0
 * Add feature `Lock Node (ALT+L)`
     * Locked nodes will be ignored by the formatter. [See more](../features/command-list.md#toggle-lock-nodes)
