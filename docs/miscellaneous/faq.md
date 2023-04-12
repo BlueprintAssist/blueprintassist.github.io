@@ -9,8 +9,12 @@
 
 ## Building the plugin for a custom Unreal version
 
+If you are familiar with powershell scripts and would like to migrate to a custom engine, check out [Xist's powershell script](https://github.com/XistGG/UnrealXistTools#migrateuemarketplacepluginps1) 
+
+Otherwise you can follow the instructions below:
+
 1. Download the plugin through the marketplace for a UE version you have currently have
-2. Open the command prompt 
+2. Open the command prompt (I have had issues in the past with powershell)
 3. Run this command to build the plugin
     
     `%UNREAL_DESIRED%/Engine/Build/BatchFiles/RunUAT.bat" BuildPlugin -Plugin="%UNREAL_CURRENT%/Engine/Plugins/Markeplace/BlueprintAssist/BlueprintAssist.uplugin" -Package="%OUT_LOCATION%" -CreateSubFolder`
@@ -18,10 +22,6 @@
     !!! example "Example: Building for version `UE_5.0` and our current version is `UE_4.27`"
     
         `C:/Program Files/Epic Games/UE_5.0/Engine/Build/BatchFiles/RunUAT.bat" BuildPlugin -Plugin="C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Marketplace/BlueprintAssist/BlueprintAssist.uplugin" -Package="C:/TempBlueprintAssist" -CreateSubFolder`
-
-    !!! note
-        The command will not work if you use powershell
-
 
 4. Open `BlueprintAssist.uplugin` in a text editor. Above it will be located at `C:/TempBlueprintAssist/BlueprintAssist/BlueprintAssist.uplugin`
     * Remove the line describing the `EngineVersion`

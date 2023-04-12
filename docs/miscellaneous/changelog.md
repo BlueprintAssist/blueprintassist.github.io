@@ -1,5 +1,11 @@
 # Changelog
 
+## This page is deprecated
+
+The changelog is now being posted as a [release on github](https://github.com/fpwong/BlueprintAssistWiki/releases) so you can track when new updates come out
+
+---
+
 ### 4.1.4
 * Fix issue where clicking on nodes would mark the package dirty
 * Fix issue where group movement would make a transaction when clicking on node buttons
