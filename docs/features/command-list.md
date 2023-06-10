@@ -33,8 +33,8 @@
 | [Duplicate variable node](#duplicate-variable-node) | `CTRL + SHIFT + V`
 | [Replace node](#replace-node) | `CTRL + H`
 | [Toggle nodes](#toggle-nodes) | `CTRL + /`
-| [Split pin](#split--recombine-pin) | `ALT + Q`
-| [Recombine pin](#split--recombine-pin) | `ALT + CTRL + Q`
+| [Split pin](#split-recombine-pin) | `ALT + Q`
+| [Recombine pin](#split-recombine-pin) | `ALT + CTRL + Q`
 | [Rename selected node](#rename-selected-node) | `F2`
 | Toggle fullscreen | `ALT + Enter`
 | [Group nodes](#group-nodes) | `ALT + G | ALT + CTRL + G`
