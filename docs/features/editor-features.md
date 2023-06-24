@@ -1,5 +1,15 @@
 # Editor features
 
+## New Node Behaviour
+The plugin supports new auto wiring behaviour when new nodes are placed on the graph. This is determined by 3 settings which can be found in `Editor Preferences > Blueprint Assist Editor Features`.  
+
+* `Connect Execution When Dragging Off Parameter` When creating a new node from a parameter pin, try to connect the
+  execution
+* `Insert New Execution Nodes` When creating an executable (impure) node from a pin, try to insert the node between
+  existing wires
+* `Insert New Pure Nodes` When creating a pure (parameter) node from a pin, try to insert the node between existing
+  wires
+
 ## Generate getter and setter
 * New context menu actions for variables to generate getter and setter
 * Setting `Merge Generate Getter and Setter Button` to merge into a single action
@@ -71,3 +81,9 @@ When changing a CustomEvent Replication it will prefix the custom event's title
     * `Clear replication Flags when Renaming with No Prefix` (disabled by default)
         * If you don't add a prefix to the title, the rep flag will be set to `Not Replicated`
     * Settings to change the Prefix for Multicast, Server and Client (default to `Server_` etc)
+
+## Generate Create Event
+
+* Generate a create event node from a delegate pin by right clicking the pin to open the context menu
+
+![type:video](./assets/GenerateCreateEvent.mp4)
