@@ -86,8 +86,8 @@
     * Format with Helixing
     * Format with LHS (left-hand side)
 * Important settings:
-    * Account for comment boxes (Experimental): Uses comment box bounds when formatting
-    * Center branches: centers nodes instead of positioning them top-to-bottom
+    * `Treat delegates as execution pins (default: true)`: When disabled, this will ignore linked delegate pins (which are directly connected to custom events). You may want to disable this if you prefer your custom events to be manually positioned.
+    * `Apply comment padding (default: true)`: Uses comment box bounds when formatting. Use this along with the AutoSizeComment plugin, otherwise disable this.
 
 ![](https://i.imgur.com/RweXyxv.gif)
 ***
@@ -99,11 +99,12 @@
 
 ***
 ## Format all events
-* Press `CTRL + R` to format all event nodes on the graph. 
-
-* Using the option: `Use columns for format all`, events are laid out in columns based on the type of event node
-
-* Blocks can be reordered by moving the height of the event node above the other block.
+* Press `CTRL + R` to format all event nodes on the graph
+* See setting `Format All Style` to choose the method of layout:
+    * `Simple`: Event nodes are sorted by height and placed in a single column
+    * `Smart`: Dynamic columns are created by estimating the width of all linked nodes in the event and then sorted by height
+    * `Node Type`: Columns are created based on the node type `{ SpecialRootNodes, ActorEvents, CustomEvents, InputEvents, ComponentEvents, OtherEvents }`
+* Blocks can be reordered by moving the height of the event node above other blocks.
 
 ![](https://i.imgur.com/BExmivg.gif)
 
