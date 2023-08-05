@@ -45,7 +45,7 @@ The plugin supports new auto wiring behaviour when new nodes are placed on the g
 
 ## Group movement
 * While dragging nodes on a graph, hold any `Group Movement Chord` and it will move all linked nodes
-* Default key is `SHIFT`, search for `Group Movement Chords` in `Editor Preferences`
+* Default key is `Spacebar`, search for `Group Movement Chords` in `Editor Preferences`
 
 ![](https://i.imgur.com/lmKPBjz.gif)
 
