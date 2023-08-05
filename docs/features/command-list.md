@@ -12,6 +12,7 @@
 | [Format node selectively](#format-node-selectively)           | `Shift + F`
 | [Format all events](#format-all-events)                       | `CTRL + R`
 | [Delete and link](#delete-and-link)                           | `SHIFT + Delete`
+| [Cut and link](#cut-and-link)                                 | `CTRL + SHIFT + X`
 | [Connect unlinked pins](#connect-unlinked-pins)               | `Q`
 | [Link nodes between wires](#link-nodes-between-wires)         | `CTRL + Q`
 | [Link to hovered pin](#link-to-hovered-pin)                   | `CTRL + SHIFT + Q`
@@ -31,6 +32,7 @@
 | [Open context menu for pin](#open-context-menu-for-pin)       | `CTRL+  M`
 | [Open context menu for node](#open-context-menu-for-node)     | `CTRL + SHIFT + M`
 | [Duplicate variable node](#duplicate-variable-node)           | `CTRL + SHIFT + V`
+| [Merge selected nodes](#merge-selected-nodes)                 | `CTRL + SHIFT + V`
 | [Replace node](#replace-node)                                 | `CTRL + H`
 | [Toggle nodes](#toggle-nodes)                                 | `CTRL + /`
 | [Split pin](#split-recombine-pin)                             | `ALT + Q`
@@ -111,9 +113,13 @@
 
 ***
 ## Delete and link
-* With a node selected press `SHIFT + DEL` to delete the node while preserving the links
+* With node(s) selected press `SHIFT + DEL` to delete the nodes while preserving the links
 
 ![](https://i.imgur.com/Am3DkTn.gif)
+
+## Cut and link
+* Functionally the same as `Delete and Link` above but also copy the selected nodes to your clipboard 
+
 ***
 ## Connect unlinked pins
 * With a node selected, press `Q` to connect unlinked pins to nearby nodes
@@ -216,6 +222,14 @@
 * Pressing `CTRL + SHIFT + V` will duplicate a variable node for each of it's links
 
 ![](https://i.imgur.com/Ttm6kVR.gif)
+***
+
+## Merge selected nodes
+
+* Pressing `ALT + SHIFT + M` will merge the selected nodes
+
+![type:video](./assets/MergeSelectedNodes.mp4)
+
 ***
 
 ## Replace node
