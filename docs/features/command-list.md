@@ -41,6 +41,7 @@
 | [Toggle lock nodes](#toggle-lock-nodes)                       | `ALT + L`
 | [Toggle node purity](#toggle-node-purity)                     | `ALT + SHIFT + G`
 | [Toggle node advanced display](#toggle-node-advanced-display) | `ALT + CTRL + A`
+| [Select Nodes In Direction](#expand-selection-in-direction)   | `SHIFT + Z (left), SHIFT + X (right)`
 
 ---
 
@@ -276,3 +277,10 @@
 * Toggle any advanced display pins on the node. Most commonly used for the `Print String` node `ALT + CTRL + A`
 
 ![type:video](./assets/ToggleNodeAdvancedDisplay.mp4)
+
+## Expand selection in direction
+
+* Using the **hovered node** as the root, expand the selection in the direction
+* `Shift + Z` for Left, `Shift + X` for Right
+ 
+![type:video](./assets/ExpandSelectionLeftRight.mp4)
