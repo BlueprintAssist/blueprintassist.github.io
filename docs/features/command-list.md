@@ -1,49 +1,49 @@
 # Command List
 
-| Feature                                                       | Hotkey |
-|---------------------------------------------------------------| - |
-| [Blueprint Assist hotkey menu](#blueprint-assist-hotkey-menu) | `CTRL + SHIFT + F1`
-| [Open window menu](#open-window-menu)                         | `CTRL + SHIFT + K`
-| [Select pin](#select-pin)                                     | `ArrowKeys`
-| [Select node](#select-node)                                   | `CTRL + ArrowKeys`
-| [Shift camera](#shift-camera)                                 | `SHIFT + ArrowKeys`
-| [Open blueprint creation menu](#open-blueprint-creation-menu) | `Tab`
-| [Format node](#format-node)                                   | `F`
-| [Format node selectively](#format-node-selectively)           | `Shift + F`
-| [Format all events](#format-all-events)                       | `CTRL + R`
-| [Delete and link](#delete-and-link)                           | `SHIFT + Delete`
-| [Cut and link](#cut-and-link)                                 | `CTRL + SHIFT + X`
-| [Connect unlinked pins](#connect-unlinked-pins)               | `Q`
-| [Link nodes between wires](#link-nodes-between-wires)         | `CTRL + Q`
-| [Link to hovered pin](#link-to-hovered-pin)                   | `CTRL + SHIFT + Q`
-| [Disconnect selected pin](#disconnect-selected-wire-or-pin)   | `D`
-| [Disconnect node execution](#disconnect-node-execution)       | `ALT + D`
-| [Disconnect all pins](#disconnect-all-pins)                   | `CTRL + SHIFT + D`
-| [Toggle context sensitive](#toggle-context-sensitive)         | `CTRL + T`
-| [Swap node left/right](#swap-node-left/right)                 | `CTRL + SHIFT + Left/Right`
-| [Edit selected pin value](#edit-selected-pin-value)           | `CTRL + E`
-| [Switch workflow mode](#switch-workflow-mode)                 | `ALT + O`
-| [Edit details menu](#edit-details-menu)                       | `CTRL + SHIFT + E`
-| [Zoom to node tree](#zoom-to-node-tree)                       | `CTRL + =`
-| [Add Symbol menu](#add-symbol-menu)                           | `CTRL + SHIFT + A`
-| [Focus search box menu](#focus-search-box-menu)               | `CTRL + ALT + F`
-| [Go to symbol menu](#go-to-symbol-menu)                       | `CTRL + G`
-| [Select variable menu](#select-variable-menu)                 | `CTRL + SHIFT + G`
-| [Open context menu for pin](#open-context-menu-for-pin)       | `CTRL+  M`
-| [Open context menu for node](#open-context-menu-for-node)     | `CTRL + SHIFT + M`
-| [Duplicate variable node](#duplicate-variable-node)           | `CTRL + SHIFT + V`
-| [Merge selected nodes](#merge-selected-nodes)                 | `CTRL + SHIFT + V`
-| [Replace node](#replace-node)                                 | `CTRL + H`
-| [Toggle nodes](#toggle-nodes)                                 | `CTRL + /`
-| [Split pin](#split-recombine-pin)                             | `ALT + Q`
-| [Recombine pin](#split-recombine-pin)                         | `ALT + CTRL + Q`
-| [Rename selected node](#rename-selected-node)                 | `F2`
-| Toggle fullscreen                                             | `ALT + Enter`
-| [Group nodes](#group-nodes)                                   | `ALT + G | ALT + CTRL + G`
-| [Toggle lock nodes](#toggle-lock-nodes)                       | `ALT + L`
-| [Toggle node purity](#toggle-node-purity)                     | `ALT + SHIFT + G`
-| [Toggle node advanced display](#toggle-node-advanced-display) | `ALT + CTRL + A`
-| [Select Nodes In Direction](#expand-selection-in-direction)   | `SHIFT + Z (left), SHIFT + X (right)`
+| Feature                                                         | Hotkey |
+|-----------------------------------------------------------------| - |
+| [Blueprint Assist hotkey menu](#blueprint-assist-hotkey-menu)   | `CTRL + SHIFT + F1`
+| [Open window menu](#open-window-menu)                           | `CTRL + SHIFT + K`
+| [Select pin](#select-pin)                                       | `ArrowKeys`
+| [Select node](#select-node)                                     | `CTRL + ArrowKeys`
+| [Shift camera](#shift-camera)                                   | `SHIFT + ArrowKeys`
+| [Open blueprint creation menu](#open-blueprint-creation-menu)   | `Tab`
+| [Format node](#format-node)                                     | `F`
+| [Format node selectively](#format-node-selectively)             | `Shift + F`
+| [Format all events](#format-all-events)                         | `CTRL + R`
+| [Delete and link](#delete-and-link)                             | `SHIFT + Delete`
+| [Cut and link](#cut-and-link)                                   | `CTRL + SHIFT + X`
+| [Connect unlinked pins](#connect-unlinked-pins)                 | `Q`
+| [Link nodes between wires](#link-nodes-between-wires)           | `CTRL + Q`
+| [Link to hovered pin](#link-to-hovered-pin)                     | `CTRL + SHIFT + Q`
+| [Disconnect selected pin](#disconnect-selected-wire-or-pin)     | `D`
+| [Disconnect node execution](#disconnect-node-execution)         | `ALT + D`
+| [Disconnect all pins](#disconnect-all-pins)                     | `CTRL + SHIFT + D`
+| [Toggle context sensitive](#toggle-context-sensitive)           | `CTRL + T`
+| [Swap node left/right](#swap-node-left/right)                   | `CTRL + SHIFT + Left/Right`
+| [Edit selected pin value](#edit-selected-pin-value)             | `CTRL + E`
+| [Switch workflow mode](#switch-workflow-mode)                   | `ALT + O`
+| [Edit details menu](#edit-details-menu)                         | `CTRL + SHIFT + E`
+| [Zoom to node tree](#zoom-to-node-tree)                         | `CTRL + =`
+| [Add Symbol menu](#add-symbol-menu)                             | `CTRL + SHIFT + A`
+| [Focus search box menu](#focus-search-box-menu)                 | `CTRL + ALT + F`
+| [Go to symbol menu](#go-to-symbol-menu)                         | `CTRL + G`
+| [Select variable menu](#select-variable-menu)                   | `CTRL + SHIFT + G`
+| [Open context menu for pin](#open-context-menu-for-pin)         | `CTRL+  M`
+| [Open context menu for node](#open-context-menu-for-node)       | `CTRL + SHIFT + M`
+| [Duplicate variable node](#duplicate-variable-node)             | `CTRL + SHIFT + V`
+| [Merge selected nodes](#merge-selected-nodes)                   | `CTRL + SHIFT + V`
+| [Replace node](#replace-node)                                   | `CTRL + H`
+| [Toggle nodes](#toggle-nodes)                                   | `CTRL + /`
+| [Split pin](#split-recombine-pin)                               | `ALT + Q`
+| [Recombine pin](#split-recombine-pin)                           | `ALT + CTRL + Q`
+| [Rename selected node](#rename-selected-node)                   | `F2`
+| Toggle fullscreen                                               | `ALT + Enter`
+| [Group nodes](#group-nodes)                                     | `ALT + G | ALT + CTRL + G`
+| [Toggle lock nodes](#toggle-lock-nodes)                         | `ALT + L`
+| [Toggle node purity](#toggle-node-purity)                       | `ALT + SHIFT + G`
+| [Toggle node advanced display](#toggle-node-advanced-display)   | `ALT + CTRL + A`
+| [Expand selection in direction](#expand-selection-in-direction) | `SHIFT + Z (left), SHIFT + X (right)`
 
 ---
 
