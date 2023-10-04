@@ -24,6 +24,11 @@ The plugin supports new auto wiring behaviour when new nodes are placed on the g
 
 > Here we would like to set all new variables to default to private
 
+## Set function defaults
+* Set default properties to be applied to newly created blueprint functions
+
+![](assets/NewFunctionDefaults.jpg)
+
 ## Auto add parent node
 * Disable this behavior by disabling `Auto Add Parent Node`
 
