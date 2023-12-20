@@ -91,6 +91,7 @@
 * Important settings:
     * `Treat delegates as execution pins (default: true)`: When disabled, this will ignore linked delegate pins (which are directly connected to custom events). You may want to disable this if you prefer your custom events to be manually positioned.
     * `Apply comment padding (default: true)`: Uses comment box bounds when formatting. Use this along with the AutoSizeComment plugin, otherwise disable this.
+    * `Globally disable auto formatting`: Disable all auto formatting behaviour
 
 ![](https://i.imgur.com/RweXyxv.gif)
 ***

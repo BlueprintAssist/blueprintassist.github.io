@@ -72,3 +72,10 @@ PinTextHighlightColor=(R=0.728000,G=0.364000,B=0.003000,A=1.000000)
         }
     ]
 ```
+
+---
+
+## Disable auto formatting
+
+* Disable it per graph-type by opening the graph and going to the Blueprint Assist toolbar, under `Auto Formatting Behavior`
+* See setting `Globally disable auto formatting`
