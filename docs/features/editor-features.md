@@ -1,14 +1,17 @@
 # Editor features
 
-## New Node Behaviour
-The plugin supports new auto wiring behaviour when new nodes are placed on the graph. This is determined by 3 settings which can be found in `Editor Preferences > Blueprint Assist Editor Features`.  
+## Auto linking for new nodes
+When a new node is created through the node creation menu, hold `CTRL` to insert the node between existing wires. The engine already auto inserts executable nodes by default, so this is mostly for pure nodes.
 
-* `Connect Execution When Dragging Off Parameter` When creating a new node from a parameter pin, try to connect the
-  execution
-* `Insert New Execution Nodes` When creating an executable (impure) node from a pin, try to insert the node between
-  existing wires
-* `Insert New Pure Nodes` When creating a pure (parameter) node from a pin, try to insert the node between existing
-  wires
+!!! note "Hotkey can be changed here"
+    `Editor Pref > Blueprint Assist Editor Features > Insert New Node Key Chord`
+
+![type:video](./assets/AutoInsert.mp4)
+
+Additionally holding the key down while dragging from an output parameter will auto connect the execution
+wire if it exists.
+
+![type:video](./assets/AutoInsertFromParameter.mp4)
 
 ## Generate getter and setter
 * New context menu actions for variables to generate getter and setter
