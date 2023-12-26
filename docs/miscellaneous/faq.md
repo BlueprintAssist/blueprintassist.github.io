@@ -1,9 +1,18 @@
 # FAQ
 
+## How to enable the plugin
+Code plugins are not enabled by default, you need to manually enable them for each project. Follow the instructions below. 
+
+Alternatively it might be useful to edit the plugin so it is enabled by default and you do not need to do this for each project. Follow instructions in [Enabling the plugin by default](#enabling-the-plugin-by-default).
+
+1. Open your project and in top toolbar navigate to Edit > Plugins
+2. In the plugin window search for BlueprintAssist and enable the plugin by ticking the checkbox
+
 ## Formatting looks off
 
 * The most common cause of this is due to the plugin using an incorrectly cached node size
 * Try manually selecting the nodes and run the `RefreshNodeSize (CTRL+SHIFT+R)` command
+* If you still have formatting issues, please report this [on github](https://github.com/fpwong/BlueprintAssistWiki/issues)
 
 ---
 
@@ -79,3 +88,56 @@ PinTextHighlightColor=(R=0.728000,G=0.364000,B=0.003000,A=1.000000)
 
 * Disable it per graph-type by opening the graph and going to the Blueprint Assist toolbar, under `Auto Formatting Behavior`
 * See setting `Globally disable auto formatting`
+
+---
+
+## Enabling the plugin by default
+
+By doing this, your projects `.uproject` does not need to include the BlueprintAssist plugin and you do not need to enable it for every project.
+
+1. Find where the plugin is installed and open the .uplugin
+    * `UE_5.X/Engine/Plugins/Marketplace/BlueprintAssist/BlueprintAssist.uplugin`
+
+2. Add the line `"EnabledByDefault": true,` into the file. See example below.
+
+!!! warning "Issue with `DisableEnginePluginsByDefault`"
+
+    * If you have the setting `DisableEnginePluginsByDefault: true` in your .uproject this will not work correctly
+    * You need to move the plugin out of the engine and into your project folder
+        * `%PROJECT_FOLDER%/Plugins/BlueprintAssist`
+
+??? "Expand to see example `.uplugin` file"
+
+    ```json
+    {
+      "FileVersion": 3,
+      "Version": 1,
+      "VersionName": "4.2.7",
+      "FriendlyName": "BlueprintAssist",
+      "Description": "Adds support for mouseless blueprint creation and navigation",
+      "Category": "Editor",
+      "CreatedBy": "fpwong",
+      "CreatedByURL": "https://fpwong.github.io/",
+      "DocsURL": "https://blueprintassist.github.io/",
+      "MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/9e895371fa3a471c87337860d6f341ff",
+      "SupportURL": "https://forums.unrealengine.com/unreal-engine/marketplace/120671",
+      "CanContainContent": false,
+      "Installed": false,
+      "EnabledByDefault": true,
+      "Modules": [
+        {
+          "Name": "BlueprintAssist",
+          "Type": "EditorNoCommandlet",
+          "LoadingPhase": "Default",
+          "WhitelistPlatforms": [
+            "Win64",
+            "Mac",
+            "Linux"
+          ],
+          "WhitelistTargets": [
+            "Editor"
+          ]
+        }
+      ]
+    }
+    ```

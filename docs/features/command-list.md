@@ -44,6 +44,7 @@
 | [Toggle node purity](#toggle-node-purity)                       |           `ALT + SHIFT + G`           |
 | [Toggle node advanced display](#toggle-node-advanced-display)   |           `ALT + CTRL + A`            |
 | [Expand selection in direction](#expand-selection-in-direction) | `SHIFT + Z (left), SHIFT + X (right)` |
+| [Refresh Node Size](#refresh-node-size)                         |          `CTRL + SHIFT + R`           |
 
 ---
 
@@ -299,3 +300,12 @@
 * `Shift + Z` for Left, `Shift + X` for Right
  
 ![type:video](./assets/ExpandSelectionLeftRight.mp4)
+
+## Refresh node size
+
+* In order for the plugin to work correctly, we must save the size of node. However there may be cases where the plugin fails to detect a size change.
+  If your blueprint graph has overlapping nodes it is likely due to this.
+
+* Select the incorrect nodes (I suggest simply selecting all the linked nodes) and press `CTRL + SHIFT + R` to refresh the sizes
+
+* If you still have formatting issues, please report this [on github](https://github.com/fpwong/BlueprintAssistWiki/issues)
