@@ -86,8 +86,17 @@ PinTextHighlightColor=(R=0.728000,G=0.364000,B=0.003000,A=1.000000)
 
 ## Disable auto formatting
 
-* Disable it per graph-type by opening the graph and going to the Blueprint Assist toolbar, under `Auto Formatting Behavior`
-* See setting `Globally disable auto formatting`
+Change the auto formatting behaviour per graph-type by opening the graph and going to the Blueprint Assist toolbar (see image below). There are 3 settings:
+
+* `Never auto format` Never position nodes after placing a new node
+* `Only format the newly created node` Positions only the new node
+* `Always format all connected nodes` Positions all connected nodes
+
+Alternatively you can **globally disable** auto formatting for all graph types
+
+* See setting in Editor Preferences: `Globally disable auto formatting`
+
+![](../features/assets/AutoFormatting.jpg)
 
 ---
 
