@@ -45,6 +45,7 @@
 | [Toggle node advanced display](#toggle-node-advanced-display)   |           `ALT + CTRL + A`            |
 | [Expand selection in direction](#expand-selection-in-direction) | `SHIFT + Z (left), SHIFT + X (right)` |
 | [Refresh Node Size](#refresh-node-size)                         |          `CTRL + SHIFT + R`           |
+| [Navigate Tab History](#navigate-tab-history)                   |       `ALT + HOME`, `ALT + END`       |
 
 ---
 
@@ -309,3 +310,12 @@
 * Select the incorrect nodes (I suggest simply selecting all the linked nodes) and press `CTRL + SHIFT + R` to refresh the sizes
 
 * If you still have formatting issues, please report this [on github](https://github.com/fpwong/BlueprintAssistWiki/issues)
+
+## Navigate tab history
+
+Works the same as pressing the thumb buttons on your mouse to go back / forward in tab history
+
+Only for Blueprint Graphs. Do not rebind to use CTRL in the keyboard shortcuts, it will not work!
+
+* Go Forward in Tab History `ALT + HOME`
+* Go Back in Tab History `ALT + END`
