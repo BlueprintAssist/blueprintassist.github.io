@@ -2,6 +2,11 @@
 
 ## Blueprint Assist Settings
 
+To reset the plugin settings:
+  1. Download this .ini file: https://gist.github.com/fpwong/a75fe80de36fe920a56d0a5f05721c3f
+  2. Navigate to the Blueprint Assist settings `Editor Pref > Blueprint Assist`
+  3. Press the import button at the top and select the .ini file
+
 ### General
 
 #### AddToolbarWidget 
