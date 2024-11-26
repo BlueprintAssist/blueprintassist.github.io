@@ -18,7 +18,7 @@
 | [Link to hovered pin](#link-to-hovered-pin)                     |          `CTRL + SHIFT + Q`           |
 | [Disconnect selected pin](#disconnect-selected-wire-or-pin)     |                  `D`                  |
 | [Disconnect node execution](#disconnect-node-execution)         |               `ALT + D`               |
-| [Disconnect all pins](#disconnect-all-pins)                     |          `CTRL + SHIFT + D`           |
+| [Disconnect all pins](#disconnect-all-pins)                     |           `ALT + SHIFT + D`           |
 | [Toggle context sensitive](#toggle-context-sensitive)           |              `CTRL + T`               |
 | [Swap node left/right](#swap-node-left/right)                   |      `CTRL + SHIFT + Left/Right`      |
 | [Edit selected pin value](#edit-selected-pin-value)             |              `CTRL + E`               |
@@ -150,7 +150,7 @@
 ![](https://i.imgur.com/nm2P8Q9.gif)
 ***
 ## Disconnect all pins
-* Select a node and press `CTRL + SHIFT + D` to disconnect all pins
+* Select a node and press `ALT + SHIFT + D` to disconnect all pins
 
 ![](https://i.imgur.com/7RZ7Pj4.gif)
 ***
