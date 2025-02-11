@@ -20,6 +20,19 @@ wire if it exists.
 
 ![](https://i.imgur.com/YguOhRc.gif)
 
+## Copy paste pin value
+* Works the same as copy pasting values in the details panel
+* Hold `SHIFT` and press `RMB` to copy to clipboard and `LMB` to paste
+* Settings `Copy Pin Value Chord` and `Paste Pin Value Chord` in editor preferences
+
+![type:video](assets/CopyPastePinValue.mp4)
+
+## Settings Change Window
+* Can be found under Tools > BA Settings Changes
+* Displays any changed settings in the plugin and allows to reset to default
+
+![SettingsChangeWindow.jpg](assets/SettingsChangeWindow.jpg)
+
 ## Set variable defaults
 * Set default properties to be applied to newly created variables
 
