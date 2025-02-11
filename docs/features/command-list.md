@@ -56,7 +56,7 @@
 
 ## Blueprint Assist hotkey menu
 
-* Open a menu which displays the hotkeys for the plugin
+* Open a menu which displays the hotkeys for the plugin `CTRL + SHIFT + F1`
 
 ![](https://i.imgur.com/EZSIgdv.png)
 ***
