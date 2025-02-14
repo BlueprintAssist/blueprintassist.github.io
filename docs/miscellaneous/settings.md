@@ -4,9 +4,13 @@
 
 To reset the plugin settings:
 
-  1. Download [this .ini file](https://gist.github.com/fpwong/a75fe80de36fe920a56d0a5f05721c3f)
-  2. Navigate to the Blueprint Assist settings `Editor Pref > Blueprint Assist`
-  3. Press the import button at the top and select the .ini file
+  1. Open the BA Settings Change window `Tools > BA Settings Change`
+  2. Click reset button on the right
+
+!!! info "Setting sections"
+    There are 3 tabs on the left for each of the plugin's setting section
+
+![SettingsChangeWindow.jpg](../features/assets/SettingsChangeWindow.jpg)
 
 ### General
 
