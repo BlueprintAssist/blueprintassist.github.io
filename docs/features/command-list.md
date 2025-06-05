@@ -30,9 +30,10 @@
 | [Zoom to node tree](#zoom-to-node-tree)                         |             `CTRL+=`              |
 | [Add Symbol menu](#add-symbol-menu)                             |          `CTRL+SHIFT+A`           |
 | [Focus search box](#focus-search-box)                           |             `CTRL+F`              |
-| [Focus search box menu](#focus-search-box-menu)                 |           `CTRL+ALT+F`            |
 | [Go to symbol menu](#go-to-symbol-menu)                         |             `CTRL+G`              |
 | [Select variable menu](#select-variable-menu)                   |          `CTRL+SHIFT+G`           |
+| [Open file menu](#open-file-menu)                               |           `CTRL+Tilde`            |
+| [Find in files menu](#find-in-files-menu)                       |           `CTRL+ALT+F`            |
 | [Open context menu for pin](#open-context-menu-for-pin)         |             `CTRL+M`              |
 | [Open context menu for node](#open-context-menu-for-node)       |          `CTRL+SHIFT+M`           |
 | [Duplicate variable node](#duplicate-variable-node)             |          `CTRL+SHIFT+V`           |
@@ -41,7 +42,6 @@
 | [Toggle nodes](#toggle-nodes)                                   |             `CTRL+/`              |
 | [Rename selected node](#rename-selected-node)                   |               `F2`                |
 | [Edit Node Comment](#edit-node-comment)                         |            `SHIFT+F2`             |
-| Toggle fullscreen                                               |            `ALT+Enter`            |
 | [Group nodes](#group-nodes)                                     |        `ALT+G, ALT+CTRL+G`        |
 | [Toggle lock nodes](#toggle-lock-nodes)                         |              `ALT+L`              |
 | [Toggle node purity](#toggle-node-purity)                       |             `CTRL+T`              |
@@ -220,10 +220,22 @@
 
 ***
 
-## Focus search box menu
-* Pressing `CTRL + ALT + F` will open a menu allowing you to bring keyboard focus to a search box in the current window
+## Open file menu
+* Press `CTRL + Tilde` to quickly search and open files in the editor
+* Allows for filtering for directory **A** and asset type **B**
+* Uses the asset search plugin
 
-![](https://i.imgur.com/zwHVLY4.png)
+![](assets/OpenFileMenu.jpg)
+
+***
+
+## Find in files menu
+* Press `CTRL + ALT + F` to search through files in the editor. Useful for searching for blueprint nodes on graphs or pin values.  
+* Allows for filtering via asset type and directory
+* Uses the asset search plugin
+
+![](assets/FindInFiles.jpg)
+
 ***
 ## Select variable menu
 * Pressing `CTRL + SHIFT + G` will open a menu allowing you to focus a variable in the blueprint
