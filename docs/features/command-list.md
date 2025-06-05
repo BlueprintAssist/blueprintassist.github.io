@@ -16,8 +16,8 @@
 | [Connect unlinked pins](#connect-unlinked-pins)                 |                `Q`                |
 | [Link nodes between wires](#link-nodes-between-wires)           |             `CTRL+Q`              |
 | [Link to hovered pin](#link-to-hovered-pin)                     |          `CTRL+SHIFT+Q`           |
-| [Split pin](#split-recombine-pin)                               |              `ALT+Q`              |
-| [Recombine pin](#split-recombine-pin)                           |           `ALT+CTRL+Q`            |
+| [Split pin](#split-and-recombine-pin)                           |              `ALT+Q`              |
+| [Recombine pin](#split-and-recombine-pin)                       |           `ALT+CTRL+Q`            |
 | [Disconnect selected pin](#disconnect-selected-wire-or-pin)     |                `D`                |
 | [Disconnect node execution](#disconnect-node-execution)         |              `ALT+D`              |
 | [Disconnect all pins](#disconnect-all-pins)                     |           `ALT+SHIFT+D`           |
@@ -283,7 +283,7 @@
 ![](https://i.imgur.com/dBgFyyJ.gif)
 ***
 
-## Split / recombine pin
+## Split and recombine pin
 * Split hovered or selected pin using `ALT + Q`
 * Recombine using `ALT + CTRL + Q`  
 
