@@ -1,12 +1,12 @@
 # FAQ
 
 ## How to enable the plugin
-Code plugins are not enabled by default, you need to manually enable them for each project. Follow the instructions below. 
-
-Alternatively it might be useful to edit the plugin so it is enabled by default and you do not need to do this for each project. Follow instructions in [Enabling the plugin by default](#enabling-the-plugin-by-default).
+Code plugins are not enabled by default, you need to manually enable them for each project.
 
 1. Open your project and in top toolbar navigate to Edit > Plugins
-2. In the plugin window search for BlueprintAssist and enable the plugin by ticking the checkbox
+1. In the plugin window search for BlueprintAssist and enable the plugin by ticking the checkbox
+   
+Alternatively it might be useful to edit the plugin so it is enabled by default and you do not need to do this for each project. Follow instructions in [Enabling the plugin by default](#enabling-the-plugin-by-default).
 
 ## Formatting looks off
 

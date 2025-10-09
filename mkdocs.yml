@@ -8,6 +8,7 @@ theme:
     - navigation.tracking
     - navigation.sections
     - navigation.indexes
+    - toc.follow
   font:
     text: Open Sans
     code: JetBrains Mono
@@ -19,13 +20,11 @@ markdown_extensions:
       alternate_style: true
   - attr_list
   - md_in_html
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
   - attr_list
 extra_css:
   - stylesheets/extra.css
 plugins:
+  - search
   - mkdocs-video:
       is_video: True
       video_muted: True

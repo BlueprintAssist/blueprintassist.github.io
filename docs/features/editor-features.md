@@ -1,10 +1,24 @@
 # Editor features
 
+## Copy paste pin value
+* Works the same as copy pasting values in the details panel
+* Hold `SHIFT` and press `RMB` to copy to clipboard and `LMB` to paste
+* Hotkey `Copy Pin Value Chord` + `Paste Pin Value Chord` in editor preferences
+
+![type:video](assets/CopyPastePinValue.mp4)
+
+## Generate getter and setter
+* Context menu options to generate getter and setter functions
+* Setting `Merge Generate Getter and Setter Button` to merge into a single action
+* Renaming a variable will auto-rename the getter and setter
+
+![](https://i.imgur.com/YguOhRc.gif)
+
 ## Auto linking for new nodes
 When a new node is created through the node creation menu, hold `CTRL` to insert the node between existing wires. The engine already auto inserts executable nodes by default, so this is mostly for pure nodes.
 
 !!! note "Hotkey can be changed here"
-    `Editor Pref > Blueprint Assist Editor Features > Insert New Node Key Chord`
+`Editor Pref > Blueprint Assist Editor Features > Insert New Node Key Chord`
 
 ![type:video](./assets/AutoInsert.mp4)
 
@@ -12,20 +26,6 @@ Additionally holding the key down while dragging from an output parameter will a
 wire if it exists.
 
 ![type:video](./assets/AutoInsertFromParameter.mp4)
-
-## Generate getter and setter
-* New context menu actions for variables to generate getter and setter
-* Setting `Merge Generate Getter and Setter Button` to merge into a single action
-* Renaming a variable will auto-rename the getter and setter
-
-![](https://i.imgur.com/YguOhRc.gif)
-
-## Copy paste pin value
-* Works the same as copy pasting values in the details panel
-* Hold `SHIFT` and press `RMB` to copy to clipboard and `LMB` to paste
-* Settings `Copy Pin Value Chord` and `Paste Pin Value Chord` in editor preferences
-
-![type:video](assets/CopyPastePinValue.mp4)
 
 ## Settings Change Window
 * Can be found under Tools > BA Settings Changes

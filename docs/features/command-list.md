@@ -126,7 +126,7 @@
 ![](https://i.imgur.com/Am3DkTn.gif)
 
 ## Cut and link
-* Functionally the same as `Delete and Link` above but also copy the selected nodes to your clipboard 
+* Functionally the same as `Delete and Link` above but also copy the selected nodes to your clipboard. Default to `CTRL+SHIFT+X`.
 
 ***
 ## Connect unlinked pins
