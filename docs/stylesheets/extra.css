@@ -23,7 +23,7 @@
     --md-default-fg-color--light: white;
 
     /* set color of header in side navbar */
-    /*--md-default-fg-color--lightest: black;*/
+    --md-default-fg-color--lightest: rgba(226, 228, 233, 0.12);
 }
 
 .md-typeset .tabbed-labels > label
