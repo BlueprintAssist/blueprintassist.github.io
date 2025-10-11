@@ -51,6 +51,7 @@
 | [Navigate Tab History](#navigate-tab-history)                   |       `ALT+HOME`, `ALT+END`       |
 | [Tab Switcher Menu](#tab-switcher-menu)                         |         `CTRL+SHIFT+TAB`          |
 | [Go to parent class definition](#go-to-parent-class-definition) |          `CTRL+SHIFT+B`           |
+| [Straighten hovered pin](#straighten-hovered-pin)               |             `UNBOUND`             |
 
 ---
 
@@ -372,3 +373,7 @@ Only for Blueprint Graphs. Do not rebind to use CTRL in the keyboard shortcuts, 
 ## Go to Parent Class Definition
 
 * Navigate to the current asset's parent class in the Unreal or code editor with `CTRL + SHIFT + B`
+
+## Straighten hovered pin
+
+* Straightens all pin connections for the hovered or selected pin `UNBOUND`
