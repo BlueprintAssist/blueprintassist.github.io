@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last Updated**: October 9, 2025
+**Last Updated**: October 22, 2025
 
 ---
 
@@ -23,28 +23,28 @@ If you choose to send a report, the following data will be collected:
    your entire blueprint, only the linked nodes in text format.
 3. **(_Optional_) Blueprint Assist settings**: Your current Blueprint Assist settings.
 
-## Data Retention and Storage
+## Data retention and storage
 
 This data will be stored on BugSplat servers for a maximum of 30 days before being automatically deleted. Some crash
 reports may be saved locally for a longer period until the associated bug is resolved.
 
-## Third-Party Services
+## Third-party services
 
 We use [BugSplat](https://www.bugsplat.com) to manage and analyze these crash reports. You can
 find more details in their
 [security and compliance documentation](https://docs.bugsplat.com/introduction/production/security-privacy-and-compliance).
 
-## Your Rights
+## Your rights
 
 You have the right to request access to or deletion of any crash report data you have submitted.
 
 Since the crash reports are anonymous, you must provide the associated **Report ID**.
 Without it, we have no way to identify your specific report and fulfill the request.
 
-The **Report ID** can be found at: `{Project}/Saved/Crashes/BACrashData/{ReportID}`.  
+The **Report ID** can be found at: `{Project}/Saved/Crashes/BACrashData/{ReportID}`.
 Example ID: `UECC-Windows-B54EF88243B5194B7B3140BECB7B6610_0000`.
 
-## Changes to This Policy
+## Changes to this policy
 
 We may update this privacy policy from time to time. The **Last Updated** date at the top of this page will indicate the
 latest revision.
@@ -75,6 +75,7 @@ Blueprint Assist crash report data is saved to `{Project}/Saved/Crashes/BACrashD
 <?xml version="1.0" encoding="UTF-8"?>
 <FGenericCrashContext>
     <RuntimeProperties>
+        <CrashTime>2025.10.10-06.01.12</CrashTime>
         <CrashGUID>UECC-Windows-B54EF88243B5194B7B3140BECB7B6610_0000</CrashGUID>
         <IsEnsure>false</IsEnsure>
         <IsStall>false</IsStall>
@@ -97,41 +98,49 @@ Blueprint Assist crash report data is saved to `{Project}/Saved/Crashes/BACrashD
         <IsRequestingExit>false</IsRequestingExit>
         <SourceContext/>
         <UserDescription/>
-        <UserActivityHint>Layout=&quot;Document&quot; Label=&quot;EventGraph&quot; Content=SGraphEditor
-        </UserActivityHint>
+        <UserActivityHint>Layout=&quot;Document&quot; Label=&quot;EventGraph&quot; Content=SGraphEditor</UserActivityHint>
         <Misc.NumberOfCores>6</Misc.NumberOfCores>
         <Misc.NumberOfCoresIncludingHyperthreads>12</Misc.NumberOfCoresIncludingHyperthreads>
         <Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
         <Misc.CPUVendor>AuthenticAMD</Misc.CPUVendor>
         <Misc.CPUBrand>AMD Ryzen 5 7500F 6-Core Processor</Misc.CPUBrand>
+        <Misc.PrimaryGPUBrand>NVIDIA GeForce RTX 4070 SUPER</Misc.PrimaryGPUBrand>
         <Misc.OSVersionMajor>Windows 11 (24H2) [10.0.26100.6584]</Misc.OSVersionMajor>
         <Misc.OSVersionMinor/>
-        <CallStack>UnrealEditor_BlueprintAssist!FEdGraphFormatter::FormatNode()
-            [BlueprintAssist/Private/BlueprintAssistFormatters/EdGraphFormatter.cpp:82]
-            UnrealEditor_BlueprintAssist!FBAGraphHandler::FormatNodes()
-            [BlueprintAssist/Private/BlueprintAssistGraphHandler.cpp:3538]
-            UnrealEditor_BlueprintAssist!FBAGraphHandler::UpdateNodesRequiringFormatting()
-            [BlueprintAssist/Private/BlueprintAssistGraphHandler.cpp:2724]
-            UnrealEditor_BlueprintAssist!FBAGraphHandler::Tick()
-            [BlueprintAssist/Private/BlueprintAssistGraphHandler.cpp:494]
-            UnrealEditor_BlueprintAssist!FBATabHandler::Tick()
-            [BlueprintAssist/Private/BlueprintAssistTabHandler.cpp:53]
-            UnrealEditor_BlueprintAssist!FBAInputProcessor::Tick()
-            [BlueprintAssist/Private/BlueprintAssistInputProcessor.cpp:101]
-            UnrealEditor_Slate!FSlateApplication::FinishedInputThisFrame()
-            [Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:1459]
+        <CallStack>UnrealEditor_BlueprintAssist!FEdGraphFormatter::FormatNode() [BlueprintAssist/Private/BlueprintAssistFormatters/EdGraphFormatter.cpp:82]
+            UnrealEditor_BlueprintAssist!FBAGraphHandler::FormatNodes() [BlueprintAssist/Private/BlueprintAssistGraphHandler.cpp:3538]
+            UnrealEditor_BlueprintAssist!FBAGraphHandler::UpdateNodesRequiringFormatting() [BlueprintAssist/Private/BlueprintAssistGraphHandler.cpp:2724]
+            UnrealEditor_BlueprintAssist!FBAGraphHandler::Tick() [BlueprintAssist/Private/BlueprintAssistGraphHandler.cpp:494]
+            UnrealEditor_BlueprintAssist!FBATabHandler::Tick() [BlueprintAssist/Private/BlueprintAssistTabHandler.cpp:53]
+            UnrealEditor_BlueprintAssist!FBAInputProcessor::Tick() [BlueprintAssist/Private/BlueprintAssistInputProcessor.cpp:101]
+            UnrealEditor_Slate!FSlateApplication::FinishedInputThisFrame() [Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:1459]
             UnrealEditor!FEngineLoop::Tick() [Runtime/Launch/Private/LaunchEngineLoop.cpp:5614]
             UnrealEditor!GuardedMain() [Runtime/Launch/Private/Launch.cpp:187]
             UnrealEditor!GuardedMainWrapper() [Runtime/Launch/Private/Windows/LaunchWindows.cpp:128]
             UnrealEditor!LaunchWindowsStartup() [Runtime/Launch/Private/Windows/LaunchWindows.cpp:282]
             UnrealEditor!WinMain() [Runtime/Launch/Private/Windows/LaunchWindows.cpp:339]
-            UnrealEditor!__scrt_common_main_seh()
-            [D:/a/_work/1/s/src/vctools/crt/vcstartup/src/startup/exe_common.inl:288]
+            UnrealEditor!__scrt_common_main_seh() [D:/a/_work/1/s/src/vctools/crt/vcstartup/src/startup/exe_common.inl:288]
             kernel32
             ntdll
         </CallStack>
     </RuntimeProperties>
     <EngineData>
+        <MatchingDPStatus>WindowsEditorNo errors</MatchingDPStatus>
+        <RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+        <RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+        <RHI.D3DDebug>false</RHI.D3DDebug>
+        <RHI.DRED>false</RHI.DRED>
+        <RHI.DREDMarkersOnly>false</RHI.DREDMarkersOnly>
+        <RHI.DREDContext>false</RHI.DREDContext>
+        <RHI.Aftermath>true</RHI.Aftermath>
+        <RHI.RHIName>D3D12</RHI.RHIName>
+        <RHI.AdapterName>NVIDIA GeForce RTX 4070 SUPER</RHI.AdapterName>
+        <RHI.UserDriverVersion>576.02</RHI.UserDriverVersion>
+        <RHI.InternalDriverVersion>32.0.15.7602</RHI.InternalDriverVersion>
+        <RHI.DriverDate>4-12-2025</RHI.DriverDate>
+        <RHI.FeatureLevel>SM6</RHI.FeatureLevel>
+        <RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+        <RHI.DeviceId>2783</RHI.DeviceId>
         <DeviceProfile.Name>WindowsEditor</DeviceProfile.Name>
         <Platform.AppHasFocus>true</Platform.AppHasFocus>
         <BAGraphHint>EdGraph</BAGraphHint>
