@@ -1,0 +1,2016 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../features/advanced/support-for-custom-graphs/">
+      
+      
+        <link rel="next" href="../faq/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.22">
+    
+    
+      
+        <title>Changelog - Blueprint Assist</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Open Sans";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="default" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#changelog" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Blueprint Assist" class="md-header__button md-logo" aria-label="Blueprint Assist" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Blueprint Assist
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Changelog
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Blueprint Assist" class="md-nav__button md-logo" aria-label="Blueprint Assist" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Blueprint Assist
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Features
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Features
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/command-list/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Command List
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/editor-features/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Editor features
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/graph-support/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Graph Support
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Advanced
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            Advanced
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/advanced/support-for-custom-graphs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Support For Custom Graphs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Miscellaneous
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Miscellaneous
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Changelog
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Changelog
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#this-page-is-deprecated" class="md-nav__link">
+    <span class="md-ellipsis">
+      This page is deprecated
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="This page is deprecated">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#414" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#413" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#412" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#411" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#410" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.0
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4012" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.0.12
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4011" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.0.11
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4010" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.0.10
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#409" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.0.9
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#408" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.0.8
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#407" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.0.7
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#406" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.0.6
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#405" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.0.5
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#404" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.0.4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#403" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.0.3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#402" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.0.2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#401" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.0.1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#400" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.0.0
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#332" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3.2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#331" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3.1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#330" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3.0
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3218" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.18
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3217" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.17
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3216" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.16
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3215" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.15
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3214" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.14
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3213" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.13
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3212" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.12
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3211" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.11
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3210" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.10
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#329" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.9
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#328" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.8
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#327" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.7
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#326" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.6
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#325" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.5
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#324" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#323" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#322" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#321" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#320" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.0
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#314" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1.4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#313" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1.3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#312" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1.2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#311" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1.1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#310" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1.0
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#302" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.0.2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#301" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.0.1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#300" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.0.0
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FAQ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../formatting-examples/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Formatting Examples
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../privacy-policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Privacy Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Settings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#this-page-is-deprecated" class="md-nav__link">
+    <span class="md-ellipsis">
+      This page is deprecated
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="This page is deprecated">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#414" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#413" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#412" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#411" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#410" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.0
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4012" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.0.12
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4011" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.0.11
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4010" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.0.10
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#409" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.0.9
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#408" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.0.8
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#407" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.0.7
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#406" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.0.6
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#405" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.0.5
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#404" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.0.4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#403" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.0.3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#402" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.0.2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#401" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.0.1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#400" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.0.0
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#332" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3.2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#331" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3.1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#330" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3.0
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3218" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.18
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3217" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.17
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3216" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.16
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3215" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.15
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3214" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.14
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3213" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.13
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3212" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.12
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3211" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.11
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3210" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.10
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#329" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.9
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#328" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.8
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#327" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.7
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#326" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.6
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#325" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.5
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#324" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#323" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#322" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#321" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#320" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.0
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#314" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1.4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#313" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1.3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#312" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1.2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#311" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1.1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#310" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1.0
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#302" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.0.2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#301" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.0.1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#300" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.0.0
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<div><h1 id="changelog">Changelog</h1>
+<h2 id="this-page-is-deprecated">This page is deprecated</h2>
+<p>The changelog is now being posted as a <a href="https://github.com/fpwong/BlueprintAssistWiki/releases">release on github</a> so you can track when new updates come out</p>
+<hr>
+<h3 id="414">4.1.4</h3>
+<ul>
+<li>Fix issue where clicking on nodes would mark the package dirty</li>
+<li>Fix issue where group movement would make a transaction when clicking on node buttons</li>
+<li>Fix issue where comments would block group movement</li>
+</ul>
+<h3 id="413">4.1.3</h3>
+<ul>
+<li>Set <code>Apply Comment Padding</code> to true by default</li>
+<li>Added Tool section in the toolbar<ul>
+<li>Added <code>Detect Unused Nodes</code> in tools to show unused nodes on the graph in the message log</li>
+</ul>
+</li>
+<li>Add Editor Utility Widgets to the OpenWindowMenu</li>
+<li>Fix issue where developer settings were not being found if the settings had not been opened yet</li>
+</ul>
+<h3 id="412">4.1.2</h3>
+<ul>
+<li>Add feature
+  to <a href="https://blueprintassist.github.io/features/editor-features/#auto-custom-event-replication-flags-and-title">automatically set replication flags when renaming custom event node</a>
+  and vice versa</li>
+<li>Change keyboard shortcut for <code>Disconnect All Node Links</code> to <code>ALT+SHIFT+D</code></li>
+<li>Separate settings into <code>Blueprint Assist | Blueprint Assist Advanced | Blueprint Assist Editor Features</code> (the two new
+  settings are mostly empty for now but I will be migrating all the settings over in the future)<ul>
+<li>Move <code>Node Group</code> settings into <code>Editor Features</code></li>
+</ul>
+</li>
+<li>Fix undo for Simple Formatter (nearly all non-bp graphs)</li>
+<li>Fix issue where swapping nodes with auto formatting enabled and no root event node would cause the nodes to move
+  unexpectedly</li>
+<li>Fix crash when splitting a struct pin on a non-blueprint graph</li>
+<li>Fix experimental setting <code>Enable Faster Formatting</code> not working #107</li>
+<li>Make <code>Disconnect Execution Of Nodes</code> and <code>Delete and Keep Links</code> apply to pure nodes #110</li>
+<li>Added experimental Fix for Material Expressions not having unique GUIDs (disabled by default
+  see <code>GenerateUniqueGUIDForMaterialExpressions</code> in <code>Advanced</code> settings)</li>
+<li>Fix compile issues when using <code>NoPCHs</code></li>
+</ul>
+<h3 id="411">4.1.1</h3>
+<ul>
+<li>Fix bug where pin could lose its connection when formatting</li>
+</ul>
+<h3 id="410">4.1.0</h3>
+<ul>
+<li>Add feature <code>Lock Node (ALT+L)</code><ul>
+<li>Locked nodes will be ignored by the formatter. <a href="../../features/command-list/#toggle-lock-nodes">See more</a></li>
+</ul>
+</li>
+<li>Add feature <code>Group Node (ALT+G | CTRL+ALT+G)</code><ul>
+<li>Grouped nodes will move together on the graph. <a href="../../features/command-list/#group-nodes">See more</a></li>
+</ul>
+</li>
+<li>Add setting <code>ApplyVariableDefaultsToEventDispatchers</code> (default: false)</li>
+<li>Add setting <code>DisableBlueprintAssistPlugin</code> (default: false)</li>
+<li>Fix issue with missing PlainBorder image</li>
+</ul>
+<h3 id="4012">4.0.12</h3>
+<ul>
+<li>Open workflow menu when pressing <code>SwitchWorkflowMode (ALT+O)</code> in AnimBP</li>
+<li>Fix issue with comment bubble bounds not being calculated correctly</li>
+<li>Fix issue with detecting node size changes when comment bubble is altered</li>
+<li>Fix issue with <code>AlwaysFormatAll</code> setting where camera would lerp after formatting</li>
+</ul>
+<h3 id="4011">4.0.11</h3>
+<ul>
+<li>Add setting <code>Cache Save Location</code>. Choose to save the cache file in the <code>Project/Saved</code> or <code>Plugin</code> folder.</li>
+<li>Fix missing <code>WidgetBlueprintEditor</code> in <code>SupportedAssetEditors</code> setting</li>
+<li>Fix undo not working for <code>AdditionalDragNode</code> and <code>GroupMovement</code> features</li>
+<li>Fix node size change not being detected when changing event nodes replication setting</li>
+</ul>
+<h3 id="4010">4.0.10</h3>
+<ul>
+<li>Change <code>DisconnectNodeExecution</code> hotkey to <code>ALT+D</code> (old <code>CTRL+D</code> is now used by Unreal for duplicate node)</li>
+<li>Fix issue where find search bar (<code>CTRL+F</code>) was not working correctly in the level editor in 5.1</li>
+<li>Fix bad pin alignment in 5.1</li>
+<li>Fix accessing stale ptrs on shutdown (issue #103)</li>
+<li>Fix warning messages related to uninitialized variables</li>
+</ul>
+<h3 id="409">4.0.9</h3>
+<ul>
+<li>Fix compile issues with 5.1</li>
+<li>Fix issue #99 where FText pins were not being detected for size changes</li>
+<li>Fix issue #100 where auto-generated parent would overlap event node when auto-formatting is disabled</li>
+</ul>
+<h3 id="408">4.0.8</h3>
+<ul>
+<li>Fix crash #95 when running selective formatting</li>
+</ul>
+<h3 id="407">4.0.7</h3>
+<ul>
+<li>Fix issues #92 and #93 related to badly created reroute nodes</li>
+</ul>
+<h3 id="406">4.0.6</h3>
+<ul>
+<li>Fix compile issues in UE5.1EA</li>
+<li>Add setting <code>AlignExecNodesTo8x8Grid</code> (disabled by default) (<a href="https://github.com/fpwong/BlueprintAssistWiki/issues/67">issue #67</a>)</li>
+<li>Add setting <code>FormatAllHorizontalAlignment</code>: Align the left-side of a node-tree either by containing <code>Comment</code> or by the <code>RootNode</code></li>
+<li>Set to <code>RootNode</code> by default (previously used <code>Comment</code>)</li>
+<li>Fix issue where node size change would not be detected if the pin's default object had changed</li>
+<li>Fix crash when formatting related to CommentUnder (issue #90)</li>
+</ul>
+<h3 id="405">4.0.5</h3>
+<ul>
+<li>Improved look of overlay when caching nodes. Hide center progress bar if we only need to cache a few nodes.</li>
+<li>Fix issue with knot creation (issue #89)</li>
+</ul>
+<h3 id="404">4.0.4</h3>
+<ul>
+<li>Added setting <code>Show Overlay When Caching Nodes</code> (enabled by default)</li>
+<li>Shows a progress bar when caching node sizes on the graph</li>
+<li>Also blocks the user from seeing the graph jump around when caching nodes as this can cause discomfort for photosensitive users</li>
+<li>Fix issue where the <code>Toggle Context Sensitive</code> command was not working</li>
+</ul>
+<h3 id="403">4.0.3</h3>
+<ul>
+<li>Add hotkey to <code>Go To Parent Class Definition (CTRL + SHIFT + B)</code></li>
+<li>Add setting for default category when generating getters and setters</li>
+<li>See setting <code>Default Generated Setters Category</code> &amp; <code>Default Generated Getters Category</code></li>
+<li>Add feature <code>Go To Pin Class Definition</code> in the context menu for a pin (when you right click a pin)</li>
+<li>Add feature <code>Double Click Node Go To Definition</code> for Cast nodes</li>
+<li>See setting <code>Enable Double Click Node Go To Definition</code> if you would like to disable this</li>
+<li>Implement comment padding for simple formatter (used for anim bp, metasound graph, material editor and more)</li>
+</ul>
+<h3 id="402">4.0.2</h3>
+<ul>
+<li>Fix crash related to owning node (issue #88)</li>
+<li>Add support for Logic Driver plugin graphs</li>
+<li>Set default AutoFormatting behavior to <code>Never</code> on material graphs</li>
+</ul>
+<h3 id="401">4.0.1</h3>
+<ul>
+<li>Added feature <code>Cut / Paste</code> for files &amp; folders in the content browser</li>
+<li>Added feature <code>Focus Search Box (CTRL + F)</code> which gives keyboard focus to the search box in the focused tab</li>
+<li>Fix issue #86 compile issues when disabling precompiled headers</li>
+<li>Fix crash #87 when running dedicated server</li>
+</ul>
+<h3 id="400">4.0.0</h3>
+<ul>
+<li>Reworked the comment padding and knot (reroute) creation algorithms (only on blueprint graphs)</li>
+<li>Added feature <code>Folder Bookmarks</code> for the content browser</li>
+<li>Press <code>CTRL + SHIFT + {0-9}</code> while the content browser is focused to create a bookmark</li>
+<li><code>CTRL + {0-9}</code> to activate that bookmark</li>
+<li>Change the hotkey in the setting <code>Folder Bookmarks</code></li>
+<li>Rename shift dragging to <code>Group Drag Chords</code>. Default key is <code>SHIFT</code>.</li>
+<li>Reenable support for control rig graph in UE5</li>
+<li>Plugin now does not run when the game is playing in PIE and has focus</li>
+<li>Fix crash when opening certain asset editors (ILIAD plugin and runtime curve editor)</li>
+<li>Added setting <code>Supported Asset Editors</code> so we don't try to add toolbar to invalid editors</li>
+<li>Fix issue where the function / variable defaults were not being applied</li>
+</ul>
+<h3 id="332">3.3.2</h3>
+<ul>
+<li>Fix issue where users may see a solid color box around their selected pin<ul>
+<li>Rename setting <code>Pin Highlight Color</code> to <code>Selected Pin Highlight Color</code></li>
+</ul>
+</li>
+<li>Fix one off error when scrolling through BA filtered lists</li>
+</ul>
+<h3 id="331">3.3.1</h3>
+<ul>
+<li>Fix crash when opening Material graph <a href="https://github.com/fpwong/BlueprintAssistWiki/issues/80">#80</a></li>
+</ul>
+<h3 id="330">3.3.0</h3>
+<ul>
+<li>Changed how the selected pin is highlighted</li>
+<li>If you see a solid box around your pins please change the setting <code>Pin Highlight Color</code> to a transparent color</li>
+<li>Default color is <code>(0.6, 0.6, 0.6, 0.33)</code></li>
+<li>Fix issue where moving selection in a BA filtered menu would be one off when moving selection upwards for the first time</li>
+<li>Fix Niagara graphs not being detected by the plugin in UE5</li>
+<li>Fix issue when converting variable get to set for local variables</li>
+</ul>
+<h3 id="3218">3.2.18</h3>
+<ul>
+<li>Added feature: Additional drag nodes chords, keys to simulate left mouse dragging on the graph editor. See setting <code>Additional Drag Nodes Chords</code></li>
+<li>Added feature: Right click context menu option for converting variable nodes from <code>get to set</code> and <code>set to get</code></li>
+<li>Added feature: Default function category / tooltip / private etc. See settings under <code>New Function Defaults</code> for more</li>
+<li>Fix crash when undoing generate variable getter and setter</li>
+</ul>
+<h3 id="3217">3.2.17</h3>
+<ul>
+<li>Fix issue where the Metasound Graph would reset the position of nodes on save after running node formatting</li>
+</ul>
+<h3 id="3216">3.2.16</h3>
+<ul>
+<li>Fix crash when opening <code>Switch Workflow Mode</code> menu for an AnimBP in UE5</li>
+<li><code>Switch Workflow Mode</code> now toggles workflow when editing WidgetBP or Behaviour Trees</li>
+<li>Change default <code>Toggle Node</code> hotkey from <code>Control + Backslash</code> to <code>Control + Slash</code></li>
+</ul>
+<h3 id="3215">3.2.15</h3>
+<ul>
+<li>Fix crash when formatting certain GameplayAbility nodes (Wait Target Data)</li>
+<li>Fix crash when accessing polygon editor tab</li>
+<li>Fix issue where toolbar button would be applied multiple times to certain assets</li>
+</ul>
+<h3 id="3214">3.2.14</h3>
+<ul>
+<li>Fix compile issues with UE5 preview (UE5 early access is no longer supported)</li>
+<li>Previously node's comment bubbles would be globally set to the same value (not pinned by default). This is now disabled by default. You can enable this via the settings <code>Enable Global Comment Bubble Pinned</code> and <code>Global Comment Bubble Pinned Value</code>.</li>
+</ul>
+<h3 id="3213">3.2.13</h3>
+<ul>
+<li>Fix issue #76 where plugin would cause cooking to fail (change plugin type to EditorNoCommandlet)</li>
+</ul>
+<h3 id="3212">3.2.12</h3>
+<ul>
+<li><code>Swap Node</code> now swaps position of node even when auto-formatting is off</li>
+<li>Fix issue where changing windows would sometimes fail to detect that the active tab changed</li>
+<li>Fix issue #73 where toolbar command keyboard shortcuts were not being processed</li>
+</ul>
+<h3 id="3211">3.2.11</h3>
+<ul>
+<li>Moving nodes using the <code>select pin</code> command now ignores knot nodes</li>
+<li>Fix occasional crash on closing editor</li>
+</ul>
+<h3 id="3210">3.2.10</h3>
+<ul>
+<li>Remove Auto Insert Comment behaviour (is now included in the Auto Size Comment plugin)</li>
+<li>Fix issue where nodes would be centered if they are offscreen when you select them</li>
+</ul>
+<h3 id="329">3.2.9</h3>
+<ul>
+<li>Improved node navigation: pressing left / right in the same direction as the selected pin will jump between nodes</li>
+<li>Removed setting <code>UseUObjects</code>, now is the default behaviour</li>
+<li>Newly created variable nodes are now selected on creation</li>
+</ul>
+<h3 id="328">3.2.8</h3>
+<ul>
+<li>Fix issue with toolbar for old version of UE (4.26 and earlier)</li>
+<li>Potential fix for issue #65 when hitting ensure condition</li>
+</ul>
+<h3 id="327">3.2.7</h3>
+<ul>
+<li>Set <code>bUseUObjects</code> to true by default (fix for Access Violation crash)</li>
+<li>Toolbar is now generated when a valid graph is opened (UE4.27 or later)</li>
+<li>Fix issue #64 where interface functions were able to be set to private</li>
+</ul>
+<h3 id="326">3.2.6</h3>
+<ul>
+<li>Fix issue #62 crash when running duplicate nodes for each link <code>CTRL + SHIFT + V</code></li>
+<li>Fix crash related to <code>TWeakPtr&lt;FExtender&gt;</code></li>
+<li>Fix issue where hidden pins would be focused when selecting certain nodes</li>
+</ul>
+<h3 id="325">3.2.5</h3>
+<ul>
+<li>Fix crash in UE4.26 and earlier when opening certain asset types</li>
+</ul>
+<h3 id="324">3.2.4</h3>
+<ul>
+<li>Fix issue where the BlueprintAssist toolbar was not being created correctly</li>
+</ul>
+<h3 id="323">3.2.3</h3>
+<ul>
+<li>Added setting to globally disable auto formatting <code>Globally disable auto formatting</code></li>
+<li>Holding <code>SHIFT</code> in the Go to symbol menu and selecting an item will open in a new tab</li>
+<li>Disable support for control rig graph due to large number of issues</li>
+<li>Fix performance issue where expensive function was being called on mouse move</li>
+<li>Fix issue #58 where a newly created node from collapsing a graph would be incorrectly linked</li>
+<li>Fix issue #60 shift dragging behaviour was not working</li>
+<li>Fix issue #61 where enhanced input nodes were not recognized in the Go to synbol menu</li>
+</ul>
+<h3 id="322">3.2.2</h3>
+<ul>
+<li>Disabled toolbar on unsupported files</li>
+<li>Setting <code>Apply comment padding</code> now works on non-blueprint graphs</li>
+<li>Fix issue #52 crash when formatting certain parameter node layout</li>
+</ul>
+<h3 id="321">3.2.1</h3>
+<ul>
+<li>Fix issue #51</li>
+<li>Remove log message when opening Switch Workflow Menu</li>
+<li>Rename variable defaults settings, now prefixed with <em>Variable</em></li>
+</ul>
+<h3 id="320">3.2.0</h3>
+<ul>
+<li>Added improved comment formatting support, disabled by default but please try out the setting <code>Apply Comment Padding</code> (can be enabled in the toolbar)<ul>
+<li>Limitations include: no padding for parameter nodes or reroute nodes, does not apply to non-blueprint graphs</li>
+<li>Removed old setting <code>Account For Comments</code></li>
+</ul>
+</li>
+<li>Added settings related to default function properties (see <code>New Function Defaults</code>)</li>
+<li>Added setting <code>Auto Zoom to Node Behavior</code>: Determines when the viewport will zoom to the newly created node <code>{ Never, Always, Outside Viewport (default) }</code></li>
+<li>Added <code>Create asset menu</code> to create a new asset <code>CTRL + ALT + n</code></li>
+<li>Added <code>Switch workflow mode</code> menu for AnimBP and WidgetBP <code>ALT + o</code> <ul>
+<li>I realised there is a leftover debug message when opening this menu, this will be removed in the next update)</li>
+</ul>
+</li>
+<li>Added <code>Focus Graph Panel</code> command, default unbound</li>
+<li>Added message log warning for nodes on the graph which are extremely far away</li>
+<li>Non-blueprint formatter settings are set via graph class name. See <code>Non Blueprint Formatter Settings</code>.</li>
+<li>Disable <code>Auto Insert Comment</code> behavior (it is now included in the AutoSizeComment plugin)</li>
+<li>Fix issue #50</li>
+<li>Fix issue where input events would be blocked when pressing escape</li>
+<li>Fix issue where a menu created when dropping a node (such as the Get / Set menu when dropping a variable) would be instantly closed due to changing focus</li>
+<li>Fix issue where the MessageLog module would be included when building the game for non-editor targets<ul>
+<li>Please read <a href="https://github.com/fpwong/BlueprintAssistWiki/wiki/FAQ#stop-any-editor-plugin-from-building--compiling-when-packaging">this link</a> about disabling editor plugins when building your game</li>
+</ul>
+</li>
+<li>Fix issues with EditDetailsMenu</li>
+</ul>
+<h3 id="314">3.1.4</h3>
+<ul>
+<li>Fix issue #45</li>
+<li>Detecting issues with reroute nodes now occurs only when compiling the blueprint</li>
+<li>Fix issue where node size timeout notification would not timeout</li>
+</ul>
+<h3 id="313">3.1.3</h3>
+<ul>
+<li>Add BlueprintAssist section to message log</li>
+<li>Empty reroute nodes are listed in the message log upon opening a graph and compiling</li>
+<li>Display bugged execution reroute nodes in the message log as errors (they have more than 1 linked output)</li>
+<li>Fix usage of USTRUCT variable for issue #37</li>
+<li>Fix issue assert for valid tab which would trigger upon closing a tab</li>
+</ul>
+<h3 id="312">3.1.2</h3>
+<ul>
+<li>Fix issue #37 🙏</li>
+</ul>
+<h3 id="311">3.1.1</h3>
+<ul>
+<li>Detect exec pins for Niagara / AnimGraph / ControlRig graphs</li>
+<li>Fix issue where shift drag node would be offset slightly</li>
+<li>Fix toggle node not reading initial state correctly</li>
+<li>Update node size when NodeEnabledState changes</li>
+</ul>
+<h3 id="310">3.1.0</h3>
+<ul>
+<li>Plugin now detects node size changes and refreshes size before formatting<ul>
+<li>Setting <code>CacheSizeWhenRequired</code> is renamed to <code>RefreshNodeSizeBeforeFormatting</code>, and is true by default</li>
+<li>Old behavior of refreshing upon opening a graph or adding a new node is now disabled by default, enable via setting <code>DetectNewNodesAndCacheNodeSizes</code></li>
+</ul>
+</li>
+<li>Change Tab Switcher hotkey to <code>CTRL + SHIFT + Tab</code></li>
+<li>Added ability to shift drag nodes to drag all connected nodes (disabled by default: see bEnableShiftDraggingNodes)</li>
+<li>Fix issues where graph would be locked due to ongoing transaction</li>
+<li>Fix issues with several commands on non-blueprint graph types</li>
+<li>Fix issue where the wrong root node would be selected when formatting</li>
+</ul>
+<h3 id="302">3.0.2</h3>
+<ul>
+<li>Fix issue where check would be hit when compiling material</li>
+<li>Fix issue where certain non-bp graphs would lock after formatting</li>
+<li>Fix issue #41 where compiling data asset bp along while data asset would cause crash</li>
+<li>Fix issue where disconnecting exec links on a macro would cause crash</li>
+</ul>
+<h3 id="301">3.0.1</h3>
+<ul>
+<li>Generating getters and setters for booleans now ignores the b prefix</li>
+<li>Setting <code>Auto-add parent node</code> is on by default now</li>
+<li>Fix issue #36 where opening level sequence would crash editor</li>
+<li>Potential fix for issue #37 where crash would occur while editing blueprints</li>
+<li>Fix crash when running certain commands on non-blueprint editors</li>
+</ul>
+<h3 id="300">3.0.0</h3>
+<ul>
+<li>Added open window menu, easy method to open <em>most</em> editor windows: <code>Ctrl+Shift+K</code> (this replaces the open setting menu)</li>
+<li>Added tab switcher menu: <code>Shift+Tab</code></li>
+<li>Added toggle fullscreen command: <code>Alt+Enter</code></li>
+<li>Added feature: <a href="https://github.com/fpwong/BlueprintAssistWiki/wiki/Features#generate-getter-and-setter">generate getter / setter</a>. Right click on a variable, to see context menu action. <a href="https://github.com/fpwong/BlueprintAssistWiki/issues/22">#22</a></li>
+<li>Added <a href="https://github.com/fpwong/BlueprintAssistWiki/wiki/Features#set-variable-defaults">auto-set variable defaults</a>. Auto set variable properties when they are created.</li>
+<li>Added behavior: automatically update <code>Instance Editable</code> when you set <code>Expose on Spawn</code> to true on a variable</li>
+<li>Added behavior: automatically generate parent event call when possible</li>
+<li>Added live coding compile successful sound (disabled by default)</li>
+<li>Added invisible knot nodes (disabled by default)</li>
+<li>Added command rename selected node: <code>F2</code> on a selected variable or macro to rename it</li>
+<li>Added formatting setting <code>Expand Nodes Ahead of Parameters</code> (enabled by default)</li>
+<li>Removed create variable menu</li>
+<li>Numerous improvements to formatting</li>
+<li>Fix issue with sharing settings through source control: https://github.com/fpwong/BlueprintAssistWiki/wiki/Sharing-plugin-settings-per-project</li>
+<li>Fix compile issues with UE5</li>
+<li>Fixed issue with creating knot nodes <a href="https://github.com/fpwong/BlueprintAssistWiki/issues/32">#32</a></li>
+<li>Fixed issue with select variable menu <a href="https://github.com/fpwong/BlueprintAssistWiki/issues/28">#28</a></li>
+<li>Fixed issue with create symbol menu <a href="https://github.com/fpwong/BlueprintAssistWiki/issues/27">#27</a></li>
+<li>Fixed issue with undo not working correctly on comments <a href="https://github.com/fpwong/BlueprintAssistWiki/issues/23">#23</a></li>
+<li>Fixed issue with undo not working correctly when running format all on unlinked event nodes</li>
+</ul></div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tracking", "navigation.sections", "navigation.indexes", "toc.follow"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
