@@ -33,17 +33,29 @@ wire if it exists.
 
 ![SettingsChangeWindow.jpg](assets/SettingsChangeWindow.jpg)
 
-## Set variable defaults
-* Set default properties to be applied to newly created variables
+## Blueprint Defaults
 
-![](https://i.imgur.com/CQ4X0b8.png)
+Set the default properties when creating a new `Variable`, `Function` or `Custom Event` 
 
-> Here we would like to set all new variables to default to private
+### Variable Defaults
 
-## Set function defaults
-* Set default properties to be applied to newly created blueprint functions
+![](assets/VariableDefaults.png)
 
-![](assets/NewFunctionDefaults.jpg)
+### Function Defaults
+
+![](assets/FunctionDefaults.png)
+
+### Custom Event Defaults
+
+![](assets/CustomEventDefaults.png)
+
+### Hotkey Defaults
+
+When this hotkey is held, the setting preset will be applied. See `VariableDefaultsHotkeys`, `FuctionDefaultsHotkeys`, `CustomEventDefaultsHotkeys`.
+
+In the example below, if the user holds `ALT` and creates a new function, it will be set to `Private`.
+
+![](assets/FunctionDefaultsHotkeys.png)
 
 ## Auto add parent node
 * Disable this behavior by disabling `Auto Add Parent Node`
@@ -94,14 +106,18 @@ When renaming a CustomEvent title it will update the custom event's Replication 
 
 ![](assets/RepFlagsFromName.gif)
 
-When changing a CustomEvent Replication it will prefix the custom event's title 
+When changing a CustomEvent Replication it will add an affix to the custom event's title 
 
 ![](assets/NameFromRepFlags.gif)
 
+Related settings
+
+![](assets/CustomEventReplication.png)
+
 !!! note "Notable Settings"
-    * `Clear replication Flags when Renaming with No Prefix` (disabled by default)
+    * `ClearReplicationFlagsWhenRenaming` (disabled by default)
         * If you don't add a prefix to the title, the rep flag will be set to `Not Replicated`
-    * Settings to change the Prefix for Multicast, Server and Client (default to `Server_` etc)
+    * By default it applies for a prefix (e.g. `Server_`), you can change this to a suffix and adjust the value accordingly
 
 ## Generate Create Event
 
